@@ -1,0 +1,155 @@
+2022-05-24 13:47:07.961 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Enum to class [B as writing converter.
+2022-05-24 13:47:07.962 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-192.168.202.1: (port 64272) op = 80
+2022-05-24 13:47:07.963 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Enum as reading converter.
+2022-05-24 13:47:07.963 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.loader                           : RMI TCP Connection(1)-192.168.202.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53af9b10
+2022-05-24 13:47:07.963 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Boolean to class [B as writing converter.
+2022-05-24 13:47:07.964 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Boolean as reading converter.
+2022-05-24 13:47:07.964 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.loader                           : RMI TCP Connection(1)-192.168.202.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53af9b10
+2022-05-24 13:47:07.964 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class [B as writing converter.
+2022-05-24 13:47:07.964 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.util.Date as reading converter.
+2022-05-24 13:47:07.964 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.loader                           : RMI TCP Connection(1)-192.168.202.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53af9b10
+2022-05-24 13:47:07.964 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.UUID to class [B as writing converter.
+2022-05-24 13:47:07.964 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.util.UUID as reading converter.
+2022-05-24 13:47:07.964 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.loader                           : RMI TCP Connection(1)-192.168.202.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53af9b10
+2022-05-24 13:47:07.964 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class [B as writing converter.
+2022-05-24 13:47:07.964 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:07.964 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.loader                           : RMI TCP Connection(1)-192.168.202.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53af9b10
+2022-05-24 13:47:07.964 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class [B as writing converter.
+2022-05-24 13:47:07.965 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalDate as reading converter.
+2022-05-24 13:47:07.965 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.loader                           : RMI TCP Connection(1)-192.168.202.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53af9b10
+2022-05-24 13:47:07.965 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class [B as writing converter.
+2022-05-24 13:47:07.965 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalTime as reading converter.
+2022-05-24 13:47:07.965 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZonedDateTime to class [B as writing converter.
+2022-05-24 13:47:07.965 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.ZonedDateTime as reading converter.
+2022-05-24 13:47:07.965 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class [B as writing converter.
+2022-05-24 13:47:07.965 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Instant as reading converter.
+2022-05-24 13:47:07.965 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class [B as writing converter.
+2022-05-24 13:47:07.966 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.ZoneId as reading converter.
+2022-05-24 13:47:07.966 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-192.168.202.1: (port 64272) op = 84
+2022-05-24 13:47:07.966 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class [B as writing converter.
+2022-05-24 13:47:07.966 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Period as reading converter.
+2022-05-24 13:47:07.966 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-192.168.202.1: (port 64272) op = 80
+2022-05-24 13:47:07.966 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class [B as writing converter.
+2022-05-24 13:47:07.966 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Duration as reading converter.
+2022-05-24 13:47:07.966 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:07.967 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+2022-05-24 13:47:07.967 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-192.168.202.1: (port 64272) op = 80
+2022-05-24 13:47:07.967 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+2022-05-24 13:47:07.967 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+2022-05-24 13:47:07.967 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.loader                           : RMI TCP Connection(1)-192.168.202.1: name = "javax.management.ObjectName", codebase = ""
+2022-05-24 13:47:07.967 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+2022-05-24 13:47:07.967 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+2022-05-24 13:47:07.967 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] javax.management.remote.rmi              : connectionId=rmi://192.168.202.1  2, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2022-05-24 13:47:07.967 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+2022-05-24 13:47:07.967 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+2022-05-24 13:47:07.967 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter.
+2022-05-24 13:47:07.968 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:07.968 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+2022-05-24 13:47:07.968 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+2022-05-24 13:47:07.968 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.server.call                      : RMI TCP Connection(1)-192.168.202.1: [192.168.202.1] exception: 
+
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1083) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:637) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:678) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1443) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:637) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2022-05-24 13:47:07.968 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+2022-05-24 13:47:07.968 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+2022-05-24 13:47:07.968 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class java.lang.String as writing converter.
+2022-05-24 13:47:07.969 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Period as reading converter.
+2022-05-24 13:47:07.969 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+2022-05-24 13:47:07.969 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:07.969 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+2022-05-24 13:47:07.969 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-192.168.202.1: (port 64272) op = 80
+2022-05-24 13:47:07.970 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] javax.management.remote.rmi              : [javax.management.remote.rmi.RMIConnectionImpl@1cad1155: connectionId=rmi://192.168.202.1  2] closing.
+2022-05-24 13:47:07.970 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] javax.management.remote.rmi              : [javax.management.remote.rmi.RMIConnectionImpl@1cad1155: connectionId=rmi://192.168.202.1  2] closed.
+2022-05-24 13:47:07.982 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+2022-05-24 13:47:07.983 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'
+2022-05-24 13:47:07.983 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+2022-05-24 13:47:07.984 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration'
+2022-05-24 13:47:07.984 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+2022-05-24 13:47:07.985 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'taskExecutorBuilder'
+2022-05-24 13:47:07.986 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2022-05-24 13:47:07.987 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'taskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2022-05-24 13:47:07.989 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+2022-05-24 13:47:07.990 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'error'
+2022-05-24 13:47:07.990 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'beanNameViewResolver'
+2022-05-24 13:47:07.992 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+2022-05-24 13:47:07.993 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2022-05-24 13:47:07.995 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cde6747'
+2022-05-24 13:47:07.995 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2022-05-24 13:47:07.996 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'conventionErrorViewResolver'
+2022-05-24 13:47:07.998 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'errorAttributes'
+2022-05-24 13:47:07.999 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'basicErrorController'
+2022-05-24 13:47:08.000 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'basicErrorController' via factory method to bean named 'errorAttributes'
+2022-05-24 13:47:08.003 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2022-05-24 13:47:08.005 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-05-24 13:47:08.005 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2022-05-24 13:47:08.005 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@7894f09b'
+2022-05-24 13:47:08.013 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2022-05-24 13:47:08.014 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2022-05-24 13:47:08.014 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-05-24 13:47:08.014 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@7894f09b'
+2022-05-24 13:47:08.015 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataWebConfiguration'
+2022-05-24 13:47:08.016 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.data.web.config.SpringDataWebConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cde6747'
+2022-05-24 13:47:08.018 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2022-05-24 13:47:08.019 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2022-05-24 13:47:08.024 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcConversionService'
+2022-05-24 13:47:08.031 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcValidator'
+2022-05-24 13:47:08.032 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2022-05-24 13:47:08.032 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2022-05-24 13:47:08.033 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2022-05-24 13:47:08.033 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2022-05-24 13:47:08.033 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2022-05-24 13:47:08.033 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2022-05-24 13:47:08.045 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'messageConverters'
+2022-05-24 13:47:08.045 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+2022-05-24 13:47:08.048 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'stringHttpMessageConverter'
+2022-05-24 13:47:08.048 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+2022-05-24 13:47:08.049 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'environment'
+2022-05-24 13:47:08.054 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+2022-05-24 13:47:08.054 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+2022-05-24 13:47:08.055 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jacksonObjectMapper'
+2022-05-24 13:47:08.055 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+2022-05-24 13:47:08.056 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+2022-05-24 13:47:08.056 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+2022-05-24 13:47:08.056 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+2022-05-24 13:47:08.057 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2022-05-24 13:47:08.060 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cde6747'
+2022-05-24 13:47:08.060 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2022-05-24 13:47:08.060 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cde6747'
+2022-05-24 13:47:08.060 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+2022-05-24 13:47:08.062 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'parameterNamesModule'
+2022-05-24 13:47:08.062 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+2022-05-24 13:47:08.065 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jsonComponentModule'
+2022-05-24 13:47:08.065 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+2022-05-24 13:47:08.071 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jsonMixinModule'
+2022-05-24 13:47:08.071 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'jsonMixinModule' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cde6747'
+2022-05-24 13:47:08.073 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jacksonGeoModule'
+2022-05-24 13:47:08.074 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration'
+2022-05-24 13:47:08.078 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+2022-05-24 13:47:08.090 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+2022-05-24 13:47:08.095 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'sortResolver'
+2022-05-24 13:47:08.096 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'sortCustomizer'
+2022-05-24 13:47:08.096 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration'

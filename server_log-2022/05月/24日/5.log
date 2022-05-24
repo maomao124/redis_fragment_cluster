@@ -1,0 +1,262 @@
+2022-05-24 13:47:08.096 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties'
+2022-05-24 13:47:08.099 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration' via constructor to bean named 'spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties'
+2022-05-24 13:47:08.102 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'pageableResolver'
+2022-05-24 13:47:08.103 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'pageableCustomizer'
+2022-05-24 13:47:08.106 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'applicationTaskExecutor'
+2022-05-24 13:47:08.107 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'taskExecutorBuilder'
+2022-05-24 13:47:08.110 DEBUG 3192 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-24 13:47:08.116 DEBUG 3192 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-05-24 13:47:08.127 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+2022-05-24 13:47:08.128 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2022-05-24 13:47:08.130 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cde6747'
+2022-05-24 13:47:08.130 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcConversionService'
+2022-05-24 13:47:08.130 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2022-05-24 13:47:08.143 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'localeResolver'
+2022-05-24 13:47:08.144 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'themeResolver'
+2022-05-24 13:47:08.145 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'flashMapManager'
+2022-05-24 13:47:08.147 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2022-05-24 13:47:08.147 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2022-05-24 13:47:08.147 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2022-05-24 13:47:08.147 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2022-05-24 13:47:08.166 DEBUG 3192 --- [main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	m.r.c.RedisTestController:
+	{GET [/get/{key}]}: get(String)
+	{GET [/set/{key}/{value}]}: set(String,String)
+2022-05-24 13:47:08.171 DEBUG 3192 --- [main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-05-24 13:47:08.172 DEBUG 3192 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2022-05-24 13:47:08.173 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcPatternParser'
+2022-05-24 13:47:08.173 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2022-05-24 13:47:08.174 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcPathMatcher'
+2022-05-24 13:47:08.174 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2022-05-24 13:47:08.175 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2022-05-24 13:47:08.175 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2022-05-24 13:47:08.175 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2022-05-24 13:47:08.176 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2022-05-24 13:47:08.176 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2022-05-24 13:47:08.178 DEBUG 3192 --- [main] _.s.web.servlet.HandlerMapping.Mappings  : 'beanNameHandlerMapping' {}
+2022-05-24 13:47:08.178 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'routerFunctionMapping'
+2022-05-24 13:47:08.178 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2022-05-24 13:47:08.178 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2022-05-24 13:47:08.181 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'resourceHandlerMapping'
+2022-05-24 13:47:08.182 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2022-05-24 13:47:08.182 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2022-05-24 13:47:08.182 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2022-05-24 13:47:08.190 DEBUG 3192 --- [main] _.s.web.servlet.HandlerMapping.Mappings  : 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2022-05-24 13:47:08.190 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2022-05-24 13:47:08.191 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2022-05-24 13:47:08.191 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2022-05-24 13:47:08.192 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2022-05-24 13:47:08.192 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2022-05-24 13:47:08.193 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2022-05-24 13:47:08.194 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2022-05-24 13:47:08.194 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'handlerExceptionResolver'
+2022-05-24 13:47:08.194 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2022-05-24 13:47:08.196 DEBUG 3192 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-05-24 13:47:08.198 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcViewResolver'
+2022-05-24 13:47:08.198 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2022-05-24 13:47:08.199 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'viewNameTranslator'
+2022-05-24 13:47:08.200 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'defaultViewResolver'
+2022-05-24 13:47:08.203 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'viewResolver'
+2022-05-24 13:47:08.204 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@7894f09b'
+2022-05-24 13:47:08.204 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'viewResolver'
+2022-05-24 13:47:08.205 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration'
+2022-05-24 13:47:08.206 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.jmx-org.springframework.boot.autoconfigure.jmx.JmxProperties'
+2022-05-24 13:47:08.207 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' via constructor to bean named 'spring.jmx-org.springframework.boot.autoconfigure.jmx.JmxProperties'
+2022-05-24 13:47:08.207 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mbeanExporter'
+2022-05-24 13:47:08.208 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'objectNamingStrategy'
+2022-05-24 13:47:08.209 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'mbeanExporter' via factory method to bean named 'objectNamingStrategy'
+2022-05-24 13:47:08.209 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'mbeanExporter' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@7894f09b'
+2022-05-24 13:47:08.212 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mbeanServer'
+2022-05-24 13:47:08.214 DEBUG 3192 --- [main] o.springframework.jmx.support.JmxUtils   : Found MBeanServer: com.sun.jmx.mbeanserver.JmxMBeanServer@7cef4e59
+2022-05-24 13:47:08.218 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration'
+2022-05-24 13:47:08.218 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'springApplicationAdminRegistrar'
+2022-05-24 13:47:08.218 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'springApplicationAdminRegistrar' via factory method to bean named 'environment'
+2022-05-24 13:47:08.220 DEBUG 3192 --- [main] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2022-05-24 13:47:08.221 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
+2022-05-24 13:47:08.221 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+2022-05-24 13:47:08.221 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+2022-05-24 13:47:08.221 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'applicationAvailability'
+2022-05-24 13:47:08.223 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisTemplate'
+2022-05-24 13:47:08.223 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'redisTemplate' via factory method to bean named 'redisConnectionFactory'
+2022-05-24 13:47:08.224 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+2022-05-24 13:47:08.224 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+2022-05-24 13:47:08.224 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'lifecycleProcessor'
+2022-05-24 13:47:08.225 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+2022-05-24 13:47:08.225 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+2022-05-24 13:47:08.226 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration'
+2022-05-24 13:47:08.227 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.redis.RedisReactiveAutoConfiguration'
+2022-05-24 13:47:08.227 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'reactiveRedisTemplate'
+2022-05-24 13:47:08.227 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'reactiveRedisTemplate' via factory method to bean named 'redisConnectionFactory'
+2022-05-24 13:47:08.228 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'reactiveRedisTemplate' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cde6747'
+2022-05-24 13:47:08.241 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'reactiveStringRedisTemplate'
+2022-05-24 13:47:08.241 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'reactiveStringRedisTemplate' via factory method to bean named 'redisConnectionFactory'
+2022-05-24 13:47:08.242 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.redis.RedisRepositoriesAutoConfiguration'
+2022-05-24 13:47:08.242 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'keyValueMappingContext'
+2022-05-24 13:47:08.249 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisCustomConversions'
+2022-05-24 13:47:08.250 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class [B as writing converter.
+2022-05-24 13:47:08.250 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.String as reading converter.
+2022-05-24 13:47:08.250 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Number to class [B as writing converter.
+2022-05-24 13:47:08.250 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Number as reading converter.
+2022-05-24 13:47:08.250 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Enum to class [B as writing converter.
+2022-05-24 13:47:08.250 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Enum as reading converter.
+2022-05-24 13:47:08.251 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Boolean to class [B as writing converter.
+2022-05-24 13:47:08.251 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Boolean as reading converter.
+2022-05-24 13:47:08.251 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class [B as writing converter.
+2022-05-24 13:47:08.251 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.util.Date as reading converter.
+2022-05-24 13:47:08.251 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.UUID to class [B as writing converter.
+2022-05-24 13:47:08.251 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.util.UUID as reading converter.
+2022-05-24 13:47:08.251 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class [B as writing converter.
+2022-05-24 13:47:08.251 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:08.251 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class [B as writing converter.
+2022-05-24 13:47:08.252 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalDate as reading converter.
+2022-05-24 13:47:08.252 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class [B as writing converter.
+2022-05-24 13:47:08.252 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalTime as reading converter.
+2022-05-24 13:47:08.252 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZonedDateTime to class [B as writing converter.
+2022-05-24 13:47:08.252 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.ZonedDateTime as reading converter.
+2022-05-24 13:47:08.252 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class [B as writing converter.
+2022-05-24 13:47:08.252 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Instant as reading converter.
+2022-05-24 13:47:08.252 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class [B as writing converter.
+2022-05-24 13:47:08.252 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.ZoneId as reading converter.
+2022-05-24 13:47:08.253 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class [B as writing converter.
+2022-05-24 13:47:08.253 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Period as reading converter.
+2022-05-24 13:47:08.253 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class [B as writing converter.
+2022-05-24 13:47:08.253 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Duration as reading converter.
+2022-05-24 13:47:08.253 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:08.253 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+2022-05-24 13:47:08.253 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+2022-05-24 13:47:08.253 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+2022-05-24 13:47:08.253 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+2022-05-24 13:47:08.254 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+2022-05-24 13:47:08.254 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+2022-05-24 13:47:08.254 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+2022-05-24 13:47:08.254 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter.
+2022-05-24 13:47:08.254 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:08.254 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+2022-05-24 13:47:08.254 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+2022-05-24 13:47:08.255 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+2022-05-24 13:47:08.255 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+2022-05-24 13:47:08.255 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class java.lang.String as writing converter.
+2022-05-24 13:47:08.255 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Period as reading converter.
+2022-05-24 13:47:08.255 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+2022-05-24 13:47:08.255 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:08.255 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+2022-05-24 13:47:08.256 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisReferenceResolver'
+2022-05-24 13:47:08.257 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisConverter'
+2022-05-24 13:47:08.259 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class [B as writing converter.
+2022-05-24 13:47:08.259 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.String as reading converter.
+2022-05-24 13:47:08.259 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Number to class [B as writing converter.
+2022-05-24 13:47:08.259 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Number as reading converter.
+2022-05-24 13:47:08.259 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Enum to class [B as writing converter.
+2022-05-24 13:47:08.259 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Enum as reading converter.
+2022-05-24 13:47:08.259 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Boolean to class [B as writing converter.
+2022-05-24 13:47:08.260 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Boolean as reading converter.
+2022-05-24 13:47:08.260 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class [B as writing converter.
+2022-05-24 13:47:08.260 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.util.Date as reading converter.
+2022-05-24 13:47:08.260 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.UUID to class [B as writing converter.
+2022-05-24 13:47:08.260 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.util.UUID as reading converter.
+2022-05-24 13:47:08.260 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class [B as writing converter.
+2022-05-24 13:47:08.260 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:08.260 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class [B as writing converter.
+2022-05-24 13:47:08.260 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalDate as reading converter.
+2022-05-24 13:47:08.260 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class [B as writing converter.
+2022-05-24 13:47:08.261 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalTime as reading converter.
+2022-05-24 13:47:08.261 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZonedDateTime to class [B as writing converter.
+2022-05-24 13:47:08.261 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.ZonedDateTime as reading converter.
+2022-05-24 13:47:08.261 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class [B as writing converter.
+2022-05-24 13:47:08.261 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Instant as reading converter.
+2022-05-24 13:47:08.261 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class [B as writing converter.
+2022-05-24 13:47:08.261 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.ZoneId as reading converter.
+2022-05-24 13:47:08.261 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class [B as writing converter.
+2022-05-24 13:47:08.261 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Period as reading converter.
+2022-05-24 13:47:08.261 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class [B as writing converter.
+2022-05-24 13:47:08.262 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Duration as reading converter.
+2022-05-24 13:47:08.262 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:08.262 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+2022-05-24 13:47:08.262 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+2022-05-24 13:47:08.262 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+2022-05-24 13:47:08.262 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+2022-05-24 13:47:08.262 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+2022-05-24 13:47:08.262 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+2022-05-24 13:47:08.262 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+2022-05-24 13:47:08.263 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter.
+2022-05-24 13:47:08.263 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:08.263 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+2022-05-24 13:47:08.263 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+2022-05-24 13:47:08.263 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+2022-05-24 13:47:08.263 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+2022-05-24 13:47:08.263 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class java.lang.String as writing converter.
+2022-05-24 13:47:08.263 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Period as reading converter.
+2022-05-24 13:47:08.263 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+2022-05-24 13:47:08.264 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:08.264 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+2022-05-24 13:47:08.264 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class [B as writing converter.
+2022-05-24 13:47:08.265 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.String as reading converter.
+2022-05-24 13:47:08.265 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Number to class [B as writing converter.
+2022-05-24 13:47:08.265 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Number as reading converter.
+2022-05-24 13:47:08.265 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Enum to class [B as writing converter.
+2022-05-24 13:47:08.265 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Enum as reading converter.
+2022-05-24 13:47:08.265 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Boolean to class [B as writing converter.
+2022-05-24 13:47:08.265 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Boolean as reading converter.
+2022-05-24 13:47:08.265 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class [B as writing converter.
+2022-05-24 13:47:08.265 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.util.Date as reading converter.
+2022-05-24 13:47:08.265 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.UUID to class [B as writing converter.
+2022-05-24 13:47:08.265 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.util.UUID as reading converter.
+2022-05-24 13:47:08.266 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class [B as writing converter.
+2022-05-24 13:47:08.266 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:08.266 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class [B as writing converter.
+2022-05-24 13:47:08.266 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalDate as reading converter.
+2022-05-24 13:47:08.266 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class [B as writing converter.
+2022-05-24 13:47:08.266 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalTime as reading converter.
+2022-05-24 13:47:08.266 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZonedDateTime to class [B as writing converter.
+2022-05-24 13:47:08.266 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.ZonedDateTime as reading converter.
+2022-05-24 13:47:08.267 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class [B as writing converter.
+2022-05-24 13:47:08.267 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Instant as reading converter.
+2022-05-24 13:47:08.267 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class [B as writing converter.
+2022-05-24 13:47:08.267 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.ZoneId as reading converter.
+2022-05-24 13:47:08.267 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class [B as writing converter.
+2022-05-24 13:47:08.267 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Period as reading converter.
+2022-05-24 13:47:08.267 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class [B as writing converter.
+2022-05-24 13:47:08.267 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Duration as reading converter.
+2022-05-24 13:47:08.267 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:08.267 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+2022-05-24 13:47:08.267 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+2022-05-24 13:47:08.268 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+2022-05-24 13:47:08.268 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+2022-05-24 13:47:08.268 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+2022-05-24 13:47:08.268 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+2022-05-24 13:47:08.268 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+2022-05-24 13:47:08.268 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter.
+2022-05-24 13:47:08.268 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:08.268 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+2022-05-24 13:47:08.268 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+2022-05-24 13:47:08.269 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+2022-05-24 13:47:08.269 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+2022-05-24 13:47:08.269 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class java.lang.String as writing converter.
+2022-05-24 13:47:08.269 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Period as reading converter.
+2022-05-24 13:47:08.269 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+2022-05-24 13:47:08.269 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+2022-05-24 13:47:08.269 DEBUG 3192 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+2022-05-24 13:47:08.275 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisKeyValueAdapter'
+2022-05-24 13:47:08.284 DEBUG 3192 --- [main] o.s.d.r.l.RedisMessageListenerContainer  : Starting RedisMessageListenerContainer...
+2022-05-24 13:47:08.285 DEBUG 3192 --- [main] o.s.d.r.l.RedisMessageListenerContainer  : Postpone listening for Redis messages until actual listeners are added.
+2022-05-24 13:47:08.291 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisKeyValueTemplate'
+2022-05-24 13:47:08.294 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+2022-05-24 13:47:08.294 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.data.web.config.ProjectingArgumentResolverRegistrar'
+2022-05-24 13:47:08.295 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+2022-05-24 13:47:08.297 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2022-05-24 13:47:08.298 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2022-05-24 13:47:08.298 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.netty.NettyAutoConfiguration'
+2022-05-24 13:47:08.299 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.netty-org.springframework.boot.autoconfigure.netty.NettyProperties'
+2022-05-24 13:47:08.299 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.netty.NettyAutoConfiguration' via constructor to bean named 'spring.netty-org.springframework.boot.autoconfigure.netty.NettyProperties'
+2022-05-24 13:47:08.300 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
+2022-05-24 13:47:08.300 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+2022-05-24 13:47:08.301 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+2022-05-24 13:47:08.302 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'scheduledBeanLazyInitializationExcludeFilter'
+2022-05-24 13:47:08.303 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'taskSchedulerBuilder'
+2022-05-24 13:47:08.304 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+2022-05-24 13:47:08.305 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'taskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+2022-05-24 13:47:08.305 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+2022-05-24 13:47:08.306 DEBUG 3192 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'platformTransactionManagerCustomizers'

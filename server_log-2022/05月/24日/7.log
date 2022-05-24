@@ -1,0 +1,119 @@
+2022-05-24 13:47:37.420 DEBUG 3192 --- [RMI TCP Connection(2)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(2)-192.168.202.1: (port 64272) connection closed
+2022-05-24 13:47:37.421 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-192.168.202.1: (port 64272) connection closed
+2022-05-24 13:47:37.420 DEBUG 3192 --- [RMI TCP Connection(3)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(3)-192.168.202.1: (port 64272) connection closed
+2022-05-24 13:47:37.422 DEBUG 3192 --- [RMI TCP Connection(3)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(3)-192.168.202.1: close connection, socket: Socket[addr=/192.168.202.1,port=64281,localport=64272]
+2022-05-24 13:47:37.422 DEBUG 3192 --- [RMI TCP Connection(2)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(2)-192.168.202.1: close connection, socket: Socket[addr=/192.168.202.1,port=64280,localport=64272]
+2022-05-24 13:47:37.422 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-192.168.202.1: close connection, socket: Socket[addr=/192.168.202.1,port=64279,localport=64272]
+2022-05-24 13:47:37.423 DEBUG 3192 --- [RMI TCP Connection(1)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-192.168.202.1: socket close: Socket[addr=/192.168.202.1,port=64279,localport=64272]
+2022-05-24 13:47:37.423 DEBUG 3192 --- [RMI TCP Connection(3)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(3)-192.168.202.1: socket close: Socket[addr=/192.168.202.1,port=64281,localport=64272]
+2022-05-24 13:47:37.423 DEBUG 3192 --- [RMI TCP Connection(2)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(2)-192.168.202.1: socket close: Socket[addr=/192.168.202.1,port=64280,localport=64272]
+2022-05-24 13:47:58.886 DEBUG 3192 --- [RMI TCP Connection(4)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(4)-192.168.202.1: accepted socket from [192.168.202.1:64314]
+2022-05-24 13:47:58.886 DEBUG 3192 --- [RMI TCP Connection(4)-192.168.202.1] sun.rmi.transport.tcp                    : RMI TCP Connection(4)-192.168.202.1: (port 64272) op = 80
+2022-05-24 13:47:58.886 DEBUG 3192 --- [RMI TCP Connection(4)-192.168.202.1] sun.rmi.loader                           : RMI TCP Connection(4)-192.168.202.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53af9b10
+2022-05-24 13:47:58.887 DEBUG 3192 --- [RMI TCP Connection(4)-192.168.202.1] sun.rmi.loader                           : RMI TCP Connection(4)-192.168.202.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53af9b10
+2022-05-24 13:47:58.887 DEBUG 3192 --- [RMI TCP Connection(4)-192.168.202.1] sun.rmi.loader                           : RMI TCP Connection(4)-192.168.202.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53af9b10
+2022-05-24 13:47:58.887 DEBUG 3192 --- [RMI TCP Connection(4)-192.168.202.1] sun.rmi.loader                           : RMI TCP Connection(4)-192.168.202.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53af9b10
+2022-05-24 13:47:58.887 DEBUG 3192 --- [RMI TCP Connection(4)-192.168.202.1] sun.rmi.loader                           : RMI TCP Connection(4)-192.168.202.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53af9b10
+2022-05-24 13:48:07.797 DEBUG 3192 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1653371287797 sessioncount 0
+2022-05-24 13:48:07.797 DEBUG 3192 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2022-05-24 13:48:12.226 DEBUG 3192 --- [http-nio-8080-Acceptor] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-8080-Acceptor] latch=1
+2022-05-24 13:48:12.226 DEBUG 3192 --- [http-nio-8080-Acceptor] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-8080-Acceptor] latch=2
+2022-05-24 13:48:12.242 DEBUG 3192 --- [http-nio-8080-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2022-05-24 13:48:12.242 DEBUG 3192 --- [http-nio-8080-exec-1] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Read from buffer: [0]
+2022-05-24 13:48:12.242 DEBUG 3192 --- [http-nio-8080-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Read direct from socket: [940]
+2022-05-24 13:48:12.242 DEBUG 3192 --- [http-nio-8080-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received [GET /set/a/1 HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Microsoft Edge";v="101"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Cookie: Idea-2347e683=7bef4e77-fa42-4f63-b13f-9d49fe35fcf9; mbox=session#a01c13ff0816407685902a031e6d50bd#1644071823|PC#a01c13ff0816407685902a031e6d50bd.32_0#1678249975; _ga=GA1.1.2061233658.1650939704
+
+]
+2022-05-24 13:48:12.255 DEBUG 3192 --- [http-nio-8080-exec-1] org.apache.tomcat.util.http.Parameters   : Set query string encoding to UTF-8
+2022-05-24 13:48:12.256 DEBUG 3192 --- [http-nio-8080-exec-1] o.a.t.util.http.Rfc6265CookieProcessor   : Cookies: Parsing b[]: Idea-2347e683=7bef4e77-fa42-4f63-b13f-9d49fe35fcf9; mbox=session#a01c13ff0816407685902a031e6d50bd#1644071823|PC#a01c13ff0816407685902a031e6d50bd.32_0#1678249975; _ga=GA1.1.2061233658.1650939704
+2022-05-24 13:48:12.258 DEBUG 3192 --- [http-nio-8080-exec-1] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /set/a/1
+2022-05-24 13:48:12.258 DEBUG 3192 --- [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2022-05-24 13:48:12.260 DEBUG 3192 --- [http-nio-8080-exec-1] o.a.c.a.jaspic.AuthConfigFactoryImpl     : Loading persistent provider registrations from [C:\Users\mao\AppData\Local\Temp\tomcat.8080.465224029020321549\conf\jaspic-providers.xml]
+2022-05-24 13:48:12.260 DEBUG 3192 --- [http-nio-8080-exec-1] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2022-05-24 13:48:12.262  INFO 3192 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-24 13:48:12.262  INFO 3192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-24 13:48:12.262 DEBUG 3192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-05-24 13:48:12.262 DEBUG 3192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-05-24 13:48:12.262 DEBUG 3192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-05-24 13:48:12.262 DEBUG 3192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1fdfefc2
+2022-05-24 13:48:12.262 DEBUG 3192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3b093bd1
+2022-05-24 13:48:12.262 DEBUG 3192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-05-24 13:48:12.262  INFO 3192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-05-24 13:48:12.269 DEBUG 3192 --- [http-nio-8080-exec-1] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2022-05-24 13:48:12.269 DEBUG 3192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/set/a/1", parameters={}
+2022-05-24 13:48:12.274 DEBUG 3192 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to mao.redis_fragment_cluster.controller.RedisTestController#set(String, String)
+2022-05-24 13:48:12.286 DEBUG 3192 --- [http-nio-8080-exec-1] o.s.d.redis.core.RedisConnectionUtils    : Fetching Redis Connection from RedisConnectionFactory
+2022-05-24 13:48:12.377 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.PooledByteBufAllocator   : -Dio.netty.allocator.numHeapArenas: 32
+2022-05-24 13:48:12.377 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.PooledByteBufAllocator   : -Dio.netty.allocator.numDirectArenas: 32
+2022-05-24 13:48:12.377 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.PooledByteBufAllocator   : -Dio.netty.allocator.pageSize: 8192
+2022-05-24 13:48:12.377 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.PooledByteBufAllocator   : -Dio.netty.allocator.maxOrder: 9
+2022-05-24 13:48:12.377 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.PooledByteBufAllocator   : -Dio.netty.allocator.chunkSize: 4194304
+2022-05-24 13:48:12.377 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.PooledByteBufAllocator   : -Dio.netty.allocator.smallCacheSize: 256
+2022-05-24 13:48:12.377 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.PooledByteBufAllocator   : -Dio.netty.allocator.normalCacheSize: 64
+2022-05-24 13:48:12.377 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.PooledByteBufAllocator   : -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-05-24 13:48:12.377 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.PooledByteBufAllocator   : -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-05-24 13:48:12.377 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.PooledByteBufAllocator   : -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-05-24 13:48:12.378 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.PooledByteBufAllocator   : -Dio.netty.allocator.useCacheForAllThreads: false
+2022-05-24 13:48:12.378 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.PooledByteBufAllocator   : -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-05-24 13:48:12.389 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.ByteBufUtil              : -Dio.netty.allocator.type: pooled
+2022-05-24 13:48:12.389 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.ByteBufUtil              : -Dio.netty.threadLocalDirectBufferSize: 0
+2022-05-24 13:48:12.389 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.buffer.ByteBufUtil              : -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-05-24 13:48:12.392 DEBUG 3192 --- [http-nio-8080-exec-1] io.lettuce.core.resource.KqueueProvider  : Starting without optional kqueue library
+2022-05-24 13:48:12.394 DEBUG 3192 --- [http-nio-8080-exec-1] i.lettuce.core.resource.IOUringProvider  : Starting without optional io_uring library
+2022-05-24 13:48:12.394 DEBUG 3192 --- [http-nio-8080-exec-1] io.lettuce.core.resource.EpollProvider   : Starting without optional epoll library
+2022-05-24 13:48:12.397 DEBUG 3192 --- [http-nio-8080-exec-1] i.l.c.r.DefaultEventLoopGroupProvider    : Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2022-05-24 13:48:12.397 DEBUG 3192 --- [http-nio-8080-exec-1] i.l.c.r.DefaultEventLoopGroupProvider    : Creating executor io.netty.channel.nio.NioEventLoopGroup
+2022-05-24 13:48:12.397 DEBUG 3192 --- [http-nio-8080-exec-1] i.n.channel.MultithreadEventLoopGroup    : -Dio.netty.eventLoopThreads: 32
+2022-05-24 13:48:12.399 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.channel.nio.NioEventLoop        : -Dio.netty.noKeySetOptimization: false
+2022-05-24 13:48:12.399 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.channel.nio.NioEventLoop        : -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-05-24 13:48:12.416 DEBUG 3192 --- [http-nio-8080-exec-1] i.l.c.r.DefaultEventLoopGroupProvider    : Adding reference to io.netty.channel.nio.NioEventLoopGroup@25deee25, existing ref count 0
+2022-05-24 13:48:12.458 DEBUG 3192 --- [http-nio-8080-exec-1] io.lettuce.core.AbstractRedisClient      : Connecting to Redis at 127.0.0.1/<unresolved>:7201
+2022-05-24 13:48:12.463 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.channel.DefaultChannelId        : -Dio.netty.processId: 3192 (auto-detected)
+2022-05-24 13:48:12.464 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.util.NetUtil                    : -Djava.net.preferIPv4Stack: false
+2022-05-24 13:48:12.464 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.util.NetUtil                    : -Djava.net.preferIPv6Addresses: false
+2022-05-24 13:48:12.475 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.util.NetUtilInitializations     : Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-05-24 13:48:12.476 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.util.NetUtil                    : Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-05-24 13:48:12.519 DEBUG 3192 --- [http-nio-8080-exec-1] io.netty.channel.DefaultChannelId        : -Dio.netty.machineId: 00:e0:99:ff:fe:01:f0:99 (auto-detected)
+2022-05-24 13:48:12.537 DEBUG 3192 --- [http-nio-8080-exec-1] io.lettuce.core.AbstractRedisClient      : Connecting to Redis at 127.0.0.1/<unresolved>:7202
+2022-05-24 13:48:12.538 DEBUG 3192 --- [http-nio-8080-exec-1] io.lettuce.core.AbstractRedisClient      : Connecting to Redis at 127.0.0.1/<unresolved>:7203
+2022-05-24 13:48:12.538 DEBUG 3192 --- [http-nio-8080-exec-1] io.lettuce.core.AbstractRedisClient      : Connecting to Redis at 127.0.0.1/<unresolved>:7301
+2022-05-24 13:48:12.539 DEBUG 3192 --- [http-nio-8080-exec-1] io.lettuce.core.AbstractRedisClient      : Connecting to Redis at 127.0.0.1/<unresolved>:7302
+2022-05-24 13:48:12.539 DEBUG 3192 --- [http-nio-8080-exec-1] io.lettuce.core.AbstractRedisClient      : Connecting to Redis at 127.0.0.1/<unresolved>:7303
+2022-05-24 13:48:12.540 DEBUG 3192 --- [http-nio-8080-exec-1] io.lettuce.core.AbstractRedisClient      : Connecting to Redis at 127.0.0.1/<unresolved>:7304
+2022-05-24 13:48:12.540 DEBUG 3192 --- [http-nio-8080-exec-1] io.lettuce.core.AbstractRedisClient      : Connecting to Redis at 127.0.0.1/<unresolved>:7305
+2022-05-24 13:48:12.541 DEBUG 3192 --- [http-nio-8080-exec-1] io.lettuce.core.AbstractRedisClient      : Connecting to Redis at 127.0.0.1/<unresolved>:7306
+2022-05-24 13:48:12.549 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, [id: 0xe8043819] (inactive), epid=0x8, chid=0x8] channelRegistered()
+2022-05-24 13:48:12.549 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, [id: 0xb38b9ef4] (inactive), epid=0x6, chid=0x6] channelRegistered()
+2022-05-24 13:48:12.549 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : [channel=0xcbb09e76, [id: 0x67b47114] (inactive), epid=0x2, chid=0x2] channelRegistered()
+2022-05-24 13:48:12.549 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, [id: 0x285019fe] (inactive), epid=0x5, chid=0x5] channelRegistered()
+2022-05-24 13:48:12.549 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : [channel=0xb190087f, [id: 0x7460f726] (inactive), epid=0x1, chid=0x1] channelRegistered()
+2022-05-24 13:48:12.549 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, [id: 0x117b62bc] (inactive), epid=0x9, chid=0x9] channelRegistered()
+2022-05-24 13:48:12.549 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, [id: 0xde194204] (inactive), epid=0x4, chid=0x4] channelRegistered()
+2022-05-24 13:48:12.549 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, [id: 0xc910384c] (inactive), epid=0x3, chid=0x3] channelRegistered()
+2022-05-24 13:48:12.549 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, [id: 0xb77bba55] (inactive), epid=0x7, chid=0x7] channelRegistered()
+2022-05-24 13:48:12.551 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.netty.util.Recycler                   : -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-05-24 13:48:12.551 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.netty.util.Recycler                   : -Dio.netty.recycler.ratio: 8
+2022-05-24 13:48:12.551 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.netty.util.Recycler                   : -Dio.netty.recycler.chunkSize: 32
+2022-05-24 13:48:12.551 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.netty.util.Recycler                   : -Dio.netty.recycler.blocking: false
+2022-05-24 13:48:12.556 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.netty.buffer.AbstractByteBuf          : -Dio.netty.buffer.checkAccessible: true
+2022-05-24 13:48:12.556 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.netty.buffer.AbstractByteBuf          : -Dio.netty.buffer.checkBounds: true
+2022-05-24 13:48:12.556 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.n.util.ResourceLeakDetectorFactory     : Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@44390fa9
+2022-05-24 13:48:12.574 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] write(ctx, AsyncCommand [type=HELLO, output=GenericMapOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.574 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] write(ctx, AsyncCommand [type=HELLO, output=GenericMapOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.574 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1, chid=0x1] write(ctx, AsyncCommand [type=HELLO, output=GenericMapOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)

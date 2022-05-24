@@ -1,0 +1,1624 @@
+2022-05-24 13:48:12.612 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2, chid=0x2] Received: 141 bytes, 1 commands in the stack
+2022-05-24 13:48:12.612 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4, chid=0x4] Received: 1024 bytes, 1 commands in the stack
+2022-05-24 13:48:12.612 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.RedisChannelHandler      : dispatching command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.612 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3, chid=0x3] Received: 1024 bytes, 1 commands in the stack
+2022-05-24 13:48:12.612 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1, chid=0x1] Received: 141 bytes, 1 commands in the stack
+2022-05-24 13:48:12.612 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] write(ctx, TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2, chid=0x2] Stack contains: 1 commands
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3, chid=0x3] Stack contains: 1 commands
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5, chid=0x5] Received: 1024 bytes, 1 commands in the stack
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4, chid=0x4] Stack contains: 1 commands
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7] write() writeAndFlush command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5, chid=0x5] Stack contains: 1 commands
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1, chid=0x1] Stack contains: 1 commands
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: false
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: false
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: false
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7] write() done
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] write(ctx, TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandEncoder  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303] writing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4, chid=0x4] Received: 141 bytes, 1 commands in the stack
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3, chid=0x3] Received: 141 bytes, 1 commands in the stack
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4, chid=0x4] Stack contains: 1 commands
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3, chid=0x3] Stack contains: 1 commands
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5, chid=0x5] Received: 141 bytes, 1 commands in the stack
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.RedisChannelHandler      : dispatching command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2, chid=0x2] Completing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=7cd1ae8836b134eee9fb38a2d65ba3c68ca9eac6 127.0.0.1:7305@17305 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371291598 8 connected
+d7e1005c23be7e8e8acc6bc24c758f14983b13ae 127.0.0.1:7304@17304 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371292588 7 connected
+8138522993727c688052e2949f5d3a0332765959 127.0.0.1:7303@17303 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371292588 6 connected
+d94b38c0fd19beb80ed8ff976480a04c922ce489 127.0.0.1:7201@17201 master - 0 1653371292588 1 connected 0-5460
+1ac6a52bed4b36bc23f9b2ee01e6e89ee657191b 127.0.0.1:7306@17306 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291486 9 connected
+182ee84d79c6cb9436e4bedb99a4355817072044 127.0.0.1:7202@17202 myself,master - 0 1653371289000 2 connected 5461-10922
+3e7321205834c35d3ecc6c150e5bf05abc400ed1 127.0.0.1:7302@17302 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371290371 5 connected
+269bc34cfb5561ebf330508940a27c6711a34074 127.0.0.1:7301@17301 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371292588 4 connected
+a50e8b3434514b05709c68692c5259f31aacb68e 127.0.0.1:7203@17203 master - 0 1653371291000 3 connected 10923-16383
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5, chid=0x5] Stack contains: 1 commands
+2022-05-24 13:48:12.613 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1, chid=0x1] Completing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=7cd1ae8836b134eee9fb38a2d65ba3c68ca9eac6 127.0.0.1:7305@17305 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371291486 8 connected
+269bc34cfb5561ebf330508940a27c6711a34074 127.0.0.1:7301@17301 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371291000 4 connected
+182ee84d79c6cb9436e4bedb99a4355817072044 127.0.0.1:7202@17202 master - 0 1653371291598 2 connected 5461-10922
+a50e8b3434514b05709c68692c5259f31aacb68e 127.0.0.1:7203@17203 master - 0 1653371291820 3 connected 10923-16383
+1ac6a52bed4b36bc23f9b2ee01e6e89ee657191b 127.0.0.1:7306@17306 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371292588 9 connected
+d94b38c0fd19beb80ed8ff976480a04c922ce489 127.0.0.1:7201@17201 myself,master - 0 1653371291000 1 connected 0-5460
+3e7321205834c35d3ecc6c150e5bf05abc400ed1 127.0.0.1:7302@17302 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371292588 5 connected
+d7e1005c23be7e8e8acc6bc24c758f14983b13ae 127.0.0.1:7304@17304 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371292588 7 connected
+8138522993727c688052e2949f5d3a0332765959 127.0.0.1:7303@17303 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291000 6 connected
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8] write() writeAndFlush command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandEncoder  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304] writing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4, chid=0x4] Completing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=3e7321205834c35d3ecc6c150e5bf05abc400ed1 127.0.0.1:7302@17302 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371291000 5 connected
+269bc34cfb5561ebf330508940a27c6711a34074 127.0.0.1:7301@17301 myself,slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371290000 4 connected
+d94b38c0fd19beb80ed8ff976480a04c922ce489 127.0.0.1:7201@17201 master - 0 1653371291534 1 connected 0-5460
+d7e1005c23be7e8e8acc6bc24c758f14983b13ae 127.0.0.1:7304@17304 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371290418 7 connected
+8138522993727c688052e2949f5d3a0332765959 127.0.0.1:7303@17303 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291534 6 connected
+a50e8b3434514b05709c68692c5259f31aacb68e 127.0.0.1:7203@17203 master - 0 1653371291868 3 connected 10923-16383
+1ac6a52bed4b36bc23f9b2ee01e6e89ee657191b 127.0.0.1:7306@17306 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291645 9 connected
+7cd1ae8836b134eee9fb38a2d65ba3c68ca9eac6 127.0.0.1:7305@17305 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371291534 8 connected
+182ee84d79c6cb9436e4bedb99a4355817072044 127.0.0.1:7202@17202 master - 0 1653371291000 2 connected 5461-10922
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8] write() done
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3, chid=0x3] Completing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=8138522993727c688052e2949f5d3a0332765959 127.0.0.1:7303@17303 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291000 6 connected
+269bc34cfb5561ebf330508940a27c6711a34074 127.0.0.1:7301@17301 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371290228 4 connected
+3e7321205834c35d3ecc6c150e5bf05abc400ed1 127.0.0.1:7302@17302 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371290228 5 connected
+182ee84d79c6cb9436e4bedb99a4355817072044 127.0.0.1:7202@17202 master - 0 1653371291000 2 connected 5461-10922
+d94b38c0fd19beb80ed8ff976480a04c922ce489 127.0.0.1:7201@17201 master - 0 1653371291566 1 connected 0-5460
+1ac6a52bed4b36bc23f9b2ee01e6e89ee657191b 127.0.0.1:7306@17306 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291566 9 connected
+a50e8b3434514b05709c68692c5259f31aacb68e 127.0.0.1:7203@17203 myself,master - 0 1653371290000 3 connected 10923-16383
+7cd1ae8836b134eee9fb38a2d65ba3c68ca9eac6 127.0.0.1:7305@17305 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371292000 8 connected
+d7e1005c23be7e8e8acc6bc24c758f14983b13ae 127.0.0.1:7304@17304 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371292568 7 connected
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] write(ctx, TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5, chid=0x5] Completing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=8138522993727c688052e2949f5d3a0332765959 127.0.0.1:7303@17303 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291566 6 connected
+a50e8b3434514b05709c68692c5259f31aacb68e 127.0.0.1:7203@17203 master - 0 1653371291566 3 connected 10923-16383
+d94b38c0fd19beb80ed8ff976480a04c922ce489 127.0.0.1:7201@17201 master - 0 1653371291566 1 connected 0-5460
+3e7321205834c35d3ecc6c150e5bf05abc400ed1 127.0.0.1:7302@17302 myself,slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371291000 5 connected
+d7e1005c23be7e8e8acc6bc24c758f14983b13ae 127.0.0.1:7304@17304 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371290561 7 connected
+7cd1ae8836b134eee9fb38a2d65ba3c68ca9eac6 127.0.0.1:7305@17305 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371291566 8 connected
+269bc34cfb5561ebf330508940a27c6711a34074 127.0.0.1:7301@17301 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371291677 4 connected
+1ac6a52bed4b36bc23f9b2ee01e6e89ee657191b 127.0.0.1:7306@17306 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291000 9 connected
+182ee84d79c6cb9436e4bedb99a4355817072044 127.0.0.1:7202@17202 master - 0 1653371291000 2 connected 5461-10922
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.RedisChannelHandler      : dispatching command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9] write() writeAndFlush command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandEncoder  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305] writing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] write(ctx, TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] Received: 1024 bytes, 1 commands in the stack
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandEncoder  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306] writing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] Stack contains: 1 commands
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: false
+2022-05-24 13:48:12.614 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9] write() done
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] Received: 141 bytes, 1 commands in the stack
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] Stack contains: 1 commands
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] Received: 1024 bytes, 1 commands in the stack
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] Stack contains: 1 commands
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: false
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] Completing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=8138522993727c688052e2949f5d3a0332765959 127.0.0.1:7303@17303 myself,slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371290000 6 connected
+a50e8b3434514b05709c68692c5259f31aacb68e 127.0.0.1:7203@17203 master - 0 1653371290530 3 connected 10923-16383
+d94b38c0fd19beb80ed8ff976480a04c922ce489 127.0.0.1:7201@17201 master - 0 1653371291534 1 connected 0-5460
+d7e1005c23be7e8e8acc6bc24c758f14983b13ae 127.0.0.1:7304@17304 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371290085 7 connected
+1ac6a52bed4b36bc23f9b2ee01e6e89ee657191b 127.0.0.1:7306@17306 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291534 9 connected
+3e7321205834c35d3ecc6c150e5bf05abc400ed1 127.0.0.1:7302@17302 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371290085 5 connected
+7cd1ae8836b134eee9fb38a2d65ba3c68ca9eac6 127.0.0.1:7305@17305 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371291000 8 connected
+269bc34cfb5561ebf330508940a27c6711a34074 127.0.0.1:7301@17301 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371291645 4 connected
+182ee84d79c6cb9436e4bedb99a4355817072044 127.0.0.1:7202@17202 master - 0 1653371291534 2 connected 5461-10922
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.RedisChannelHandler      : dispatching command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] Received: 1024 bytes, 1 commands in the stack
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] Stack contains: 1 commands
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1] write() writeAndFlush command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] Received: 141 bytes, 1 commands in the stack
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: false
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] Stack contains: 1 commands
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1] write() done
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1, chid=0x1] write(ctx, TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] Received: 141 bytes, 1 commands in the stack
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.RedisChannelHandler      : dispatching command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] Stack contains: 1 commands
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2] write() writeAndFlush command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] Completing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=269bc34cfb5561ebf330508940a27c6711a34074 127.0.0.1:7301@17301 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371291000 4 connected
+7cd1ae8836b134eee9fb38a2d65ba3c68ca9eac6 127.0.0.1:7305@17305 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371292123 8 connected
+d7e1005c23be7e8e8acc6bc24c758f14983b13ae 127.0.0.1:7304@17304 myself,slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371290000 7 connected
+3e7321205834c35d3ecc6c150e5bf05abc400ed1 127.0.0.1:7302@17302 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371290561 5 connected
+a50e8b3434514b05709c68692c5259f31aacb68e 127.0.0.1:7203@17203 master - 0 1653371291566 3 connected 10923-16383
+182ee84d79c6cb9436e4bedb99a4355817072044 127.0.0.1:7202@17202 master - 0 1653371291566 2 connected 5461-10922
+8138522993727c688052e2949f5d3a0332765959 127.0.0.1:7303@17303 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291677 6 connected
+1ac6a52bed4b36bc23f9b2ee01e6e89ee657191b 127.0.0.1:7306@17306 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291000 9 connected
+d94b38c0fd19beb80ed8ff976480a04c922ce489 127.0.0.1:7201@17201 master - 0 1653371292568 1 connected 0-5460
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandEncoder  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201] writing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2] write() done
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.615 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2, chid=0x2] write(ctx, TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.RedisChannelHandler      : dispatching command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] Completing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=269bc34cfb5561ebf330508940a27c6711a34074 127.0.0.1:7301@17301 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371291598 4 connected
+7cd1ae8836b134eee9fb38a2d65ba3c68ca9eac6 127.0.0.1:7305@17305 myself,slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371289000 8 connected
+182ee84d79c6cb9436e4bedb99a4355817072044 127.0.0.1:7202@17202 master - 0 1653371291000 2 connected 5461-10922
+8138522993727c688052e2949f5d3a0332765959 127.0.0.1:7303@17303 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291151 6 connected
+d7e1005c23be7e8e8acc6bc24c758f14983b13ae 127.0.0.1:7304@17304 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371290593 7 connected
+d94b38c0fd19beb80ed8ff976480a04c922ce489 127.0.0.1:7201@17201 master - 0 1653371291598 1 connected 0-5460
+a50e8b3434514b05709c68692c5259f31aacb68e 127.0.0.1:7203@17203 master - 0 1653371291000 3 connected 10923-16383
+1ac6a52bed4b36bc23f9b2ee01e6e89ee657191b 127.0.0.1:7306@17306 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291000 9 connected
+3e7321205834c35d3ecc6c150e5bf05abc400ed1 127.0.0.1:7302@17302 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371292588 5 connected
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3] write() writeAndFlush command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3] write() done
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandEncoder  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202] writing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3, chid=0x3] write(ctx, TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.RedisChannelHandler      : dispatching command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1, chid=0x1] Received: 3271 bytes, 1 commands in the stack
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1, chid=0x1] Stack contains: 1 commands
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4] write() writeAndFlush command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandEncoder  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203] writing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4] write() done
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4, chid=0x4] write(ctx, TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.RedisChannelHandler      : dispatching command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5] write() writeAndFlush command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2, chid=0x2] Received: 3271 bytes, 1 commands in the stack
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2, chid=0x2] Stack contains: 1 commands
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5] write() done
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5, chid=0x5] write(ctx, TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1, chid=0x1] Completing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=# Server
+redis_version:5.0.14.1
+redis_git_sha1:ec77f72d
+redis_git_dirty:0
+redis_build_id:5627b8177c9289c
+redis_mode:cluster
+os:Windows  
+arch_bits:64
+multiplexing_api:WinSock_IOCP
+atomicvar_api:pthread-mutex
+process_id:18136
+run_id:d98351b93cb3d7ae6fb3d1e8565d83b2079f76ea
+tcp_port:7201
+uptime_in_seconds:107
+uptime_in_days:0
+hz:10
+configured_hz:10
+lru_clock:9204124
+executable:C:\Program Files\redis\redis-server.exe
+config_file:C:\Program Files\redis\master1\redis.conf
+
+# Clients
+connected_clients:3
+client_recent_max_input_buffer:2
+client_recent_max_output_buffer:0
+blocked_clients:0
+
+# Memory
+used_memory:1522904
+used_memory_human:1.00M
+used_memory_rss:1521824
+used_memory_rss_human:1.00M
+used_memory_peak:1541864
+used_memory_peak_human:1.00M
+used_memory_peak_perc:98.77%
+used_memory_overhead:1394066
+used_memory_startup:1309760
+used_memory_dataset:128838
+used_memory_dataset_perc:60.45%
+allocator_allocated:2455784
+allocator_active:650117120
+allocator_resident:683671552
+total_system_memory:0
+total_system_memory_human:0B
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+used_memory_scripts:0
+used_memory_scripts_human:0B
+number_of_cached_scripts:0
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+allocator_frag_ratio:264.73
+allocator_frag_bytes:647661336
+allocator_rss_ratio:1.05
+allocator_rss_bytes:33554432
+rss_overhead_ratio:0.00
+rss_overhead_bytes:-682149728
+mem_fragmentation_ratio:1.00
+mem_fragmentation_bytes:0
+mem_not_counted_for_evict:0
+mem_replication_backlog:0
+mem_clients_slaves:0
+mem_clients_normal:84306
+mem_aof_buffer:0
+mem_allocator:jemalloc-5.2.1-redis
+active_defrag_running:0
+lazyfree_pending_objects:0
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1653371185
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+rdb_last_cow_size:0
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+aof_last_cow_size:0
+
+# Stats
+total_connections_received:6
+total_commands_processed:30
+instantaneous_ops_per_sec:0
+total_net_input_bytes:54498
+total_net_output_bytes:18958
+instantaneous_input_kbps:0.02
+instantaneous_output_kbps:0.04
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+expired_stale_perc:0.00
+expired_time_cap_reached_count:0
+evicted_keys:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:0
+migrate_cached_sockets:0
+slave_expires_tracked_keys:0
+active_defrag_hits:0
+active_defrag_misses:0
+active_defrag_key_hits:0
+active_defrag_key_misses:0
+
+# Replication
+role:master
+connected_slaves:0
+master_replid:42b8eafb9b09e6531a5bba9be514d47bba4e3cae
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:0.046875
+used_cpu_user:0.093750
+used_cpu_sys_children:0.000000
+used_cpu_user_children:0.000000
+
+# Cluster
+cluster_enabled:1
+
+# Keyspace
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandEncoder  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301] writing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3, chid=0x3] Received: 3271 bytes, 1 commands in the stack
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.RedisChannelHandler      : dispatching command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.616 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandEncoder  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302] writing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3, chid=0x3] Stack contains: 1 commands
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6] write() writeAndFlush command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2, chid=0x2] Completing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=# Server
+redis_version:5.0.14.1
+redis_git_sha1:ec77f72d
+redis_git_dirty:0
+redis_build_id:5627b8177c9289c
+redis_mode:cluster
+os:Windows  
+arch_bits:64
+multiplexing_api:WinSock_IOCP
+atomicvar_api:pthread-mutex
+process_id:10520
+run_id:9853687ba9545f540fe4d8472742d9c3ef253da0
+tcp_port:7202
+uptime_in_seconds:107
+uptime_in_days:0
+hz:10
+configured_hz:10
+lru_clock:9204124
+executable:C:\Program Files\redis\redis-server.exe
+config_file:C:\Program Files\redis\master2\redis.conf
+
+# Clients
+connected_clients:3
+client_recent_max_input_buffer:2
+client_recent_max_output_buffer:0
+blocked_clients:0
+
+# Memory
+used_memory:1530072
+used_memory_human:1.00M
+used_memory_rss:1528992
+used_memory_rss_human:1.00M
+used_memory_peak:1549032
+used_memory_peak_human:1.00M
+used_memory_peak_perc:98.78%
+used_memory_overhead:1394066
+used_memory_startup:1309760
+used_memory_dataset:136006
+used_memory_dataset_perc:61.73%
+allocator_allocated:2458952
+allocator_active:608174080
+allocator_resident:683671552
+total_system_memory:0
+total_system_memory_human:0B
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+used_memory_scripts:0
+used_memory_scripts_human:0B
+number_of_cached_scripts:0
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+allocator_frag_ratio:247.33
+allocator_frag_bytes:605715128
+allocator_rss_ratio:1.12
+allocator_rss_bytes:75497472
+rss_overhead_ratio:0.00
+rss_overhead_bytes:-682142560
+mem_fragmentation_ratio:1.00
+mem_fragmentation_bytes:0
+mem_not_counted_for_evict:0
+mem_replication_backlog:0
+mem_clients_slaves:0
+mem_clients_normal:84306
+mem_aof_buffer:0
+mem_allocator:jemalloc-5.2.1-redis
+active_defrag_running:0
+lazyfree_pending_objects:0
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1653371185
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+rdb_last_cow_size:0
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+aof_last_cow_size:0
+
+# Stats
+total_connections_received:7
+total_commands_processed:30
+instantaneous_ops_per_sec:0
+total_net_input_bytes:56579
+total_net_output_bytes:14670
+instantaneous_input_kbps:0.02
+instantaneous_output_kbps:0.04
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+expired_stale_perc:0.00
+expired_time_cap_reached_count:0
+evicted_keys:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:0
+migrate_cached_sockets:0
+slave_expires_tracked_keys:0
+active_defrag_hits:0
+active_defrag_misses:0
+active_defrag_key_hits:0
+active_defrag_key_misses:0
+
+# Replication
+role:master
+connected_slaves:0
+master_replid:ec6406220a2191cd7c024f4b5a1783bbe8838051
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:0.031250
+used_cpu_user:0.062500
+used_cpu_sys_children:0.000000
+used_cpu_user_children:0.000000
+
+# Cluster
+cluster_enabled:1
+
+# Keyspace
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4, chid=0x4] Received: 3494 bytes, 1 commands in the stack
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] write(ctx, TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6] write() done
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4, chid=0x4] Stack contains: 1 commands
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.RedisChannelHandler      : dispatching command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3, chid=0x3] Completing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=# Server
+redis_version:5.0.14.1
+redis_git_sha1:ec77f72d
+redis_git_dirty:0
+redis_build_id:5627b8177c9289c
+redis_mode:cluster
+os:Windows  
+arch_bits:64
+multiplexing_api:WinSock_IOCP
+atomicvar_api:pthread-mutex
+process_id:2600
+run_id:0672c2bfec7563fffc37105b9c03f275bf985e8d
+tcp_port:7203
+uptime_in_seconds:106
+uptime_in_days:0
+hz:10
+configured_hz:10
+lru_clock:9204124
+executable:C:\Program Files\redis\redis-server.exe
+config_file:C:\Program Files\redis\master3\redis.conf
+
+# Clients
+connected_clients:3
+client_recent_max_input_buffer:2
+client_recent_max_output_buffer:0
+blocked_clients:0
+
+# Memory
+used_memory:1529048
+used_memory_human:1.00M
+used_memory_rss:1466104
+used_memory_rss_human:1.00M
+used_memory_peak:1529048
+used_memory_peak_human:1.00M
+used_memory_peak_perc:101.46%
+used_memory_overhead:1394066
+used_memory_startup:1309760
+used_memory_dataset:134982
+used_memory_dataset_perc:61.55%
+allocator_allocated:2291872
+allocator_active:608174080
+allocator_resident:683671552
+total_system_memory:0
+total_system_memory_human:0B
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+used_memory_scripts:0
+used_memory_scripts_human:0B
+number_of_cached_scripts:0
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+allocator_frag_ratio:265.36
+allocator_frag_bytes:605882208
+allocator_rss_ratio:1.12
+allocator_rss_bytes:75497472
+rss_overhead_ratio:0.00
+rss_overhead_bytes:-682205448
+mem_fragmentation_ratio:1.00
+mem_fragmentation_bytes:0
+mem_not_counted_for_evict:0
+mem_replication_backlog:0
+mem_clients_slaves:0
+mem_clients_normal:84306
+mem_aof_buffer:0
+mem_allocator:jemalloc-5.2.1-redis
+active_defrag_running:0
+lazyfree_pending_objects:0
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1653371186
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+rdb_last_cow_size:0
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+aof_last_cow_size:0
+
+# Stats
+total_connections_received:7
+total_commands_processed:28
+instantaneous_ops_per_sec:0
+total_net_input_bytes:61051
+total_net_output_bytes:13591
+instantaneous_input_kbps:0.00
+instantaneous_output_kbps:0.00
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+expired_stale_perc:0.00
+expired_time_cap_reached_count:0
+evicted_keys:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:0
+migrate_cached_sockets:0
+slave_expires_tracked_keys:0
+active_defrag_hits:0
+active_defrag_misses:0
+active_defrag_key_hits:0
+active_defrag_key_misses:0
+
+# Replication
+role:master
+connected_slaves:0
+master_replid:c4ef607dd0f3d5558ee4d8d220e2329972a0be19
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:0.140625
+used_cpu_user:0.078125
+used_cpu_sys_children:0.000000
+used_cpu_user_children:0.000000
+
+# Cluster
+cluster_enabled:1
+
+# Keyspace
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5, chid=0x5] Received: 3494 bytes, 1 commands in the stack
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7] write() writeAndFlush command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandEncoder  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303] writing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5, chid=0x5] Stack contains: 1 commands
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7] write() done
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] write(ctx, TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.RedisChannelHandler      : dispatching command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4, chid=0x4] Completing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=# Server
+redis_version:5.0.14.1
+redis_git_sha1:ec77f72d
+redis_git_dirty:0
+redis_build_id:5627b8177c9289c
+redis_mode:cluster
+os:Windows  
+arch_bits:64
+multiplexing_api:WinSock_IOCP
+atomicvar_api:pthread-mutex
+process_id:16164
+run_id:dd687264e1d99bf7defed3bfcca137bec5898640
+tcp_port:7301
+uptime_in_seconds:106
+uptime_in_days:0
+hz:10
+configured_hz:10
+lru_clock:9204124
+executable:C:\Program Files\redis\redis-server.exe
+config_file:C:\Program Files\redis\slave1\redis.conf
+
+# Clients
+connected_clients:1
+client_recent_max_input_buffer:2
+client_recent_max_output_buffer:0
+blocked_clients:0
+
+# Memory
+used_memory:1506024
+used_memory_human:1.00M
+used_memory_rss:1443088
+used_memory_rss_human:1.00M
+used_memory_peak:1506024
+used_memory_peak_human:1.00M
+used_memory_peak_perc:104.36%
+used_memory_overhead:1359710
+used_memory_startup:1309760
+used_memory_dataset:146314
+used_memory_dataset_perc:74.55%
+allocator_allocated:12666056
+allocator_active:620756992
+allocator_resident:629145600
+total_system_memory:0
+total_system_memory_human:0B
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+used_memory_scripts:0
+used_memory_scripts_human:0B
+number_of_cached_scripts:0
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+allocator_frag_ratio:49.01
+allocator_frag_bytes:608090936
+allocator_rss_ratio:1.01
+allocator_rss_bytes:8388608
+rss_overhead_ratio:0.00
+rss_overhead_bytes:-627702512
+mem_fragmentation_ratio:1.00
+mem_fragmentation_bytes:0
+mem_not_counted_for_evict:0
+mem_replication_backlog:0
+mem_clients_slaves:0
+mem_clients_normal:49950
+mem_aof_buffer:0
+mem_allocator:jemalloc-5.2.1-redis
+active_defrag_running:0
+lazyfree_pending_objects:0
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1653371186
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+rdb_last_cow_size:0
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+aof_last_cow_size:0
+
+# Stats
+total_connections_received:3
+total_commands_processed:14
+instantaneous_ops_per_sec:0
+total_net_input_bytes:568
+total_net_output_bytes:11079
+instantaneous_input_kbps:0.00
+instantaneous_output_kbps:0.00
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+expired_stale_perc:0.00
+expired_time_cap_reached_count:0
+evicted_keys:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:0
+migrate_cached_sockets:0
+slave_expires_tracked_keys:0
+active_defrag_hits:0
+active_defrag_misses:0
+active_defrag_key_hits:0
+active_defrag_key_misses:0
+
+# Replication
+role:slave
+master_host:127.0.0.1
+master_port:7203
+master_link_status:down
+master_last_io_seconds_ago:-1
+master_sync_in_progress:0
+slave_repl_offset:0
+master_link_down_since_seconds:1653371292
+slave_priority:100
+slave_read_only:1
+connected_slaves:0
+master_replid:bc7144c764126aeac375ff3717ce9f4e8232252a
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:0.078125
+used_cpu_user:0.078125
+used_cpu_sys_children:0.000000
+used_cpu_user_children:0.000000
+
+# Cluster
+cluster_enabled:1
+
+# Keyspace
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandEncoder  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304] writing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8] write() writeAndFlush command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.617 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] Received: 3494 bytes, 1 commands in the stack
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5, chid=0x5] Completing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=# Server
+redis_version:5.0.14.1
+redis_git_sha1:ec77f72d
+redis_git_dirty:0
+redis_build_id:5627b8177c9289c
+redis_mode:cluster
+os:Windows  
+arch_bits:64
+multiplexing_api:WinSock_IOCP
+atomicvar_api:pthread-mutex
+process_id:17700
+run_id:04f10b8068a089c773b22d39732bef9853ed8306
+tcp_port:7302
+uptime_in_seconds:106
+uptime_in_days:0
+hz:10
+configured_hz:10
+lru_clock:9204124
+executable:C:\Program Files\redis\redis-server.exe
+config_file:C:\Program Files\redis\slave2\redis.conf
+
+# Clients
+connected_clients:1
+client_recent_max_input_buffer:2
+client_recent_max_output_buffer:0
+blocked_clients:0
+
+# Memory
+used_memory:1507048
+used_memory_human:1.00M
+used_memory_rss:1444112
+used_memory_rss_human:1.00M
+used_memory_peak:1507048
+used_memory_peak_human:1.00M
+used_memory_peak_perc:104.35%
+used_memory_overhead:1360734
+used_memory_startup:1310784
+used_memory_dataset:146314
+used_memory_dataset_perc:74.55%
+allocator_allocated:14210736
+allocator_active:662700032
+allocator_resident:671088640
+total_system_memory:0
+total_system_memory_human:0B
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+used_memory_scripts:0
+used_memory_scripts_human:0B
+number_of_cached_scripts:0
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+allocator_frag_ratio:46.63
+allocator_frag_bytes:648489296
+allocator_rss_ratio:1.01
+allocator_rss_bytes:8388608
+rss_overhead_ratio:0.00
+rss_overhead_bytes:-669644528
+mem_fragmentation_ratio:1.00
+mem_fragmentation_bytes:0
+mem_not_counted_for_evict:0
+mem_replication_backlog:0
+mem_clients_slaves:0
+mem_clients_normal:49950
+mem_aof_buffer:0
+mem_allocator:jemalloc-5.2.1-redis
+active_defrag_running:0
+lazyfree_pending_objects:0
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1653371186
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+rdb_last_cow_size:0
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+aof_last_cow_size:0
+
+# Stats
+total_connections_received:3
+total_commands_processed:14
+instantaneous_ops_per_sec:0
+total_net_input_bytes:568
+total_net_output_bytes:11079
+instantaneous_input_kbps:0.00
+instantaneous_output_kbps:0.00
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+expired_stale_perc:0.00
+expired_time_cap_reached_count:0
+evicted_keys:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:0
+migrate_cached_sockets:0
+slave_expires_tracked_keys:0
+active_defrag_hits:0
+active_defrag_misses:0
+active_defrag_key_hits:0
+active_defrag_key_misses:0
+
+# Replication
+role:slave
+master_host:127.0.0.1
+master_port:7203
+master_link_status:down
+master_last_io_seconds_ago:-1
+master_sync_in_progress:0
+slave_repl_offset:0
+master_link_down_since_seconds:1653371292
+slave_priority:100
+slave_read_only:1
+connected_slaves:0
+master_replid:fcf3b11b05ad37b1eba64de7166625d8372e989f
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:0.062500
+used_cpu_user:0.078125
+used_cpu_sys_children:0.000000
+used_cpu_user_children:0.000000
+
+# Cluster
+cluster_enabled:1
+
+# Keyspace
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] write(ctx, TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8] write() done
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] Stack contains: 1 commands
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.RedisChannelHandler      : dispatching command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] Received: 3494 bytes, 1 commands in the stack
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandEncoder  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305] writing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9] write() writeAndFlush command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] Stack contains: 1 commands
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] write(ctx, TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandEncoder  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306] writing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] Received: 3493 bytes, 1 commands in the stack
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] Stack contains: 1 commands
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9] write() done
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] Completing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=# Server
+redis_version:5.0.14.1
+redis_git_sha1:ec77f72d
+redis_git_dirty:0
+redis_build_id:5627b8177c9289c
+redis_mode:cluster
+os:Windows  
+arch_bits:64
+multiplexing_api:WinSock_IOCP
+atomicvar_api:pthread-mutex
+process_id:12264
+run_id:68adbc693699f4ed43937facd9740b36189a44cf
+tcp_port:7304
+uptime_in_seconds:106
+uptime_in_days:0
+hz:10
+configured_hz:10
+lru_clock:9204124
+executable:C:\Program Files\redis\redis-server.exe
+config_file:C:\Program Files\redis\slave4\redis.conf
+
+# Clients
+connected_clients:1
+client_recent_max_input_buffer:2
+client_recent_max_output_buffer:0
+blocked_clients:0
+
+# Memory
+used_memory:1506024
+used_memory_human:1.00M
+used_memory_rss:1443088
+used_memory_rss_human:1.00M
+used_memory_peak:1506024
+used_memory_peak_human:1.00M
+used_memory_peak_perc:104.36%
+used_memory_overhead:1359710
+used_memory_startup:1309760
+used_memory_dataset:146314
+used_memory_dataset_perc:74.55%
+allocator_allocated:14963680
+allocator_active:650117120
+allocator_resident:658505728
+total_system_memory:0
+total_system_memory_human:0B
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+used_memory_scripts:0
+used_memory_scripts_human:0B
+number_of_cached_scripts:0
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+allocator_frag_ratio:43.45
+allocator_frag_bytes:635153440
+allocator_rss_ratio:1.01
+allocator_rss_bytes:8388608
+rss_overhead_ratio:0.00
+rss_overhead_bytes:-657062640
+mem_fragmentation_ratio:1.00
+mem_fragmentation_bytes:0
+mem_not_counted_for_evict:0
+mem_replication_backlog:0
+mem_clients_slaves:0
+mem_clients_normal:49950
+mem_aof_buffer:0
+mem_allocator:jemalloc-5.2.1-redis
+active_defrag_running:0
+lazyfree_pending_objects:0
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1653371186
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+rdb_last_cow_size:0
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+aof_last_cow_size:0
+
+# Stats
+total_connections_received:3
+total_commands_processed:14
+instantaneous_ops_per_sec:0
+total_net_input_bytes:568
+total_net_output_bytes:11079
+instantaneous_input_kbps:0.00
+instantaneous_output_kbps:0.00
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+expired_stale_perc:0.00
+expired_time_cap_reached_count:0
+evicted_keys:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:0
+migrate_cached_sockets:0
+slave_expires_tracked_keys:0
+active_defrag_hits:0
+active_defrag_misses:0
+active_defrag_key_hits:0
+active_defrag_key_misses:0
+
+# Replication
+role:slave
+master_host:127.0.0.1
+master_port:7201
+master_link_status:down
+master_last_io_seconds_ago:-1
+master_sync_in_progress:0
+slave_repl_offset:0
+master_link_down_since_seconds:1653371292
+slave_priority:100
+slave_read_only:1
+connected_slaves:0
+master_replid:1ba279cdaf7433a146ac97d0f324a0837916cf6e
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:0.062500
+used_cpu_user:0.062500
+used_cpu_sys_children:0.000000
+used_cpu_user_children:0.000000
+
+# Cluster
+cluster_enabled:1
+
+# Keyspace
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.618 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] Completing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=# Server
+redis_version:5.0.14.1
+redis_git_sha1:ec77f72d
+redis_git_dirty:0
+redis_build_id:5627b8177c9289c
+redis_mode:cluster
+os:Windows  
+arch_bits:64
+multiplexing_api:WinSock_IOCP
+atomicvar_api:pthread-mutex
+process_id:16600
+run_id:ea21896b620048214cb1bdfaaed969fc40f3d70c
+tcp_port:7303
+uptime_in_seconds:106
+uptime_in_days:0
+hz:10
+configured_hz:10
+lru_clock:9204124
+executable:C:\Program Files\redis\redis-server.exe
+config_file:C:\Program Files\redis\slave3\redis.conf
+
+# Clients
+connected_clients:1
+client_recent_max_input_buffer:2
+client_recent_max_output_buffer:0
+blocked_clients:0
+
+# Memory
+used_memory:1511144
+used_memory_human:1.00M
+used_memory_rss:1448208
+used_memory_rss_human:1.00M
+used_memory_peak:1511144
+used_memory_peak_human:1.00M
+used_memory_peak_perc:104.35%
+used_memory_overhead:1359710
+used_memory_startup:1309760
+used_memory_dataset:151434
+used_memory_dataset_perc:75.20%
+allocator_allocated:14213832
+allocator_active:662700032
+allocator_resident:671088640
+total_system_memory:0
+total_system_memory_human:0B
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+used_memory_scripts:0
+used_memory_scripts_human:0B
+number_of_cached_scripts:0
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+allocator_frag_ratio:46.62
+allocator_frag_bytes:648486200
+allocator_rss_ratio:1.01
+allocator_rss_bytes:8388608
+rss_overhead_ratio:0.00
+rss_overhead_bytes:-669640432
+mem_fragmentation_ratio:1.00
+mem_fragmentation_bytes:0
+mem_not_counted_for_evict:0
+mem_replication_backlog:0
+mem_clients_slaves:0
+mem_clients_normal:49950
+mem_aof_buffer:0
+mem_allocator:jemalloc-5.2.1-redis
+active_defrag_running:0
+lazyfree_pending_objects:0
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1653371186
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+rdb_last_cow_size:0
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+aof_last_cow_size:0
+
+# Stats
+total_connections_received:3
+total_commands_processed:14
+instantaneous_ops_per_sec:0
+total_net_input_bytes:568
+total_net_output_bytes:11079
+instantaneous_input_kbps:0.00
+instantaneous_output_kbps:0.00
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+expired_stale_perc:0.00
+expired_time_cap_reached_count:0
+evicted_keys:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:0
+migrate_cached_sockets:0
+slave_expires_tracked_keys:0
+active_defrag_hits:0
+active_defrag_misses:0
+active_defrag_key_hits:0
+active_defrag_key_misses:0
+
+# Replication
+role:slave
+master_host:127.0.0.1
+master_port:7202
+master_link_status:down
+master_last_io_seconds_ago:-1
+master_sync_in_progress:0
+slave_repl_offset:0
+master_link_down_since_seconds:1653371292
+slave_priority:100
+slave_read_only:1
+connected_slaves:0
+master_replid:6a6ac140fd663df3149c1b674519b99d88e903f8
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:0.078125
+used_cpu_user:0.078125
+used_cpu_sys_children:0.000000
+used_cpu_user_children:0.000000
+
+# Cluster
+cluster_enabled:1
+
+# Keyspace
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.619 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.619 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] Completing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=# Server
+redis_version:5.0.14.1
+redis_git_sha1:ec77f72d
+redis_git_dirty:0
+redis_build_id:5627b8177c9289c
+redis_mode:cluster
+os:Windows  
+arch_bits:64
+multiplexing_api:WinSock_IOCP
+atomicvar_api:pthread-mutex
+process_id:6020
+run_id:a5c638c162e0301c06c270890ad29d657c539381
+tcp_port:7305
+uptime_in_seconds:106
+uptime_in_days:0
+hz:10
+configured_hz:10
+lru_clock:9204124
+executable:C:\Program Files\redis\redis-server.exe
+config_file:C:\Program Files\redis\slave5\redis.conf
+
+# Clients
+connected_clients:1
+client_recent_max_input_buffer:2
+client_recent_max_output_buffer:0
+blocked_clients:0
+
+# Memory
+used_memory:1508072
+used_memory_human:1.00M
+used_memory_rss:1506992
+used_memory_rss_human:1.00M
+used_memory_peak:1508072
+used_memory_peak_human:1.00M
+used_memory_peak_perc:100.07%
+used_memory_overhead:1359710
+used_memory_startup:1309760
+used_memory_dataset:148362
+used_memory_dataset_perc:74.81%
+allocator_allocated:14198856
+allocator_active:650117120
+allocator_resident:658505728
+total_system_memory:0
+total_system_memory_human:0B
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+used_memory_scripts:0
+used_memory_scripts_human:0B
+number_of_cached_scripts:0
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+allocator_frag_ratio:45.79
+allocator_frag_bytes:635918264
+allocator_rss_ratio:1.01
+allocator_rss_bytes:8388608
+rss_overhead_ratio:0.00
+rss_overhead_bytes:-656998736
+mem_fragmentation_ratio:1.00
+mem_fragmentation_bytes:0
+mem_not_counted_for_evict:0
+mem_replication_backlog:0
+mem_clients_slaves:0
+mem_clients_normal:49950
+mem_aof_buffer:0
+mem_allocator:jemalloc-5.2.1-redis
+active_defrag_running:0
+lazyfree_pending_objects:0
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1653371186
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+rdb_last_cow_size:0
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+aof_last_cow_size:0
+
+# Stats
+total_connections_received:3
+total_commands_processed:14
+instantaneous_ops_per_sec:0
+total_net_input_bytes:568
+total_net_output_bytes:11077
+instantaneous_input_kbps:0.02
+instantaneous_output_kbps:0.04
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+expired_stale_perc:0.00
+expired_time_cap_reached_count:0
+evicted_keys:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:0
+migrate_cached_sockets:0
+slave_expires_tracked_keys:0
+active_defrag_hits:0
+active_defrag_misses:0
+active_defrag_key_hits:0
+active_defrag_key_misses:0
+
+# Replication
+role:slave
+master_host:127.0.0.1
+master_port:7201
+master_link_status:down
+master_last_io_seconds_ago:-1
+master_sync_in_progress:0
+slave_repl_offset:0
+master_link_down_since_seconds:1653371292
+slave_priority:100
+slave_read_only:1
+connected_slaves:0
+master_replid:781a739db1a115ded97860713f669d417e993fac
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:0.078125
+used_cpu_user:0.062500
+used_cpu_sys_children:0.000000
+used_cpu_user_children:0.000000
+
+# Cluster
+cluster_enabled:1
+
+# Keyspace
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.622 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] Received: 1024 bytes, 3 commands in the stack
+2022-05-24 13:48:12.622 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] Stack contains: 3 commands
+2022-05-24 13:48:12.622 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.622 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] Completing command AsyncCommand [type=CLIENT, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.622 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] Stack contains: 2 commands
+2022-05-24 13:48:12.622 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: false
+2022-05-24 13:48:12.622 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] Received: 3640 bytes, 2 commands in the stack
+2022-05-24 13:48:12.622 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] Stack contains: 2 commands
+2022-05-24 13:48:12.622 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.623 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] Completing command TimedAsyncCommand [type=CLUSTER, output=StatusOutput [output=a50e8b3434514b05709c68692c5259f31aacb68e 127.0.0.1:7203@17203 master - 0 1653371292091 3 connected 10923-16383
+3e7321205834c35d3ecc6c150e5bf05abc400ed1 127.0.0.1:7302@17302 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371291534 5 connected
+8138522993727c688052e2949f5d3a0332765959 127.0.0.1:7303@17303 slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371291000 6 connected
+d7e1005c23be7e8e8acc6bc24c758f14983b13ae 127.0.0.1:7304@17304 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371290530 7 connected
+7cd1ae8836b134eee9fb38a2d65ba3c68ca9eac6 127.0.0.1:7305@17305 slave d94b38c0fd19beb80ed8ff976480a04c922ce489 0 1653371291645 8 connected
+182ee84d79c6cb9436e4bedb99a4355817072044 127.0.0.1:7202@17202 master - 0 1653371291000 2 connected 5461-10922
+269bc34cfb5561ebf330508940a27c6711a34074 127.0.0.1:7301@17301 slave a50e8b3434514b05709c68692c5259f31aacb68e 0 1653371291000 4 connected
+1ac6a52bed4b36bc23f9b2ee01e6e89ee657191b 127.0.0.1:7306@17306 myself,slave 182ee84d79c6cb9436e4bedb99a4355817072044 0 1653371290000 9 connected
+d94b38c0fd19beb80ed8ff976480a04c922ce489 127.0.0.1:7201@17201 master - 0 1653371291000 1 connected 0-5460
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.623 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] Stack contains: 1 commands
+2022-05-24 13:48:12.623 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.623 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] Completing command TimedAsyncCommand [type=INFO, output=StatusOutput [output=# Server
+redis_version:5.0.14.1
+redis_git_sha1:ec77f72d
+redis_git_dirty:0
+redis_build_id:5627b8177c9289c
+redis_mode:cluster
+os:Windows  
+arch_bits:64
+multiplexing_api:WinSock_IOCP
+atomicvar_api:pthread-mutex
+process_id:16400
+run_id:2e47328b3a21d685bfd8d436ddedfe5f3a6d8638
+tcp_port:7306
+uptime_in_seconds:106
+uptime_in_days:0
+hz:10
+configured_hz:10
+lru_clock:9204124
+executable:C:\Program Files\redis\redis-server.exe
+config_file:C:\Program Files\redis\slave6\redis.conf
+
+# Clients
+connected_clients:1
+client_recent_max_input_buffer:2
+client_recent_max_output_buffer:0
+blocked_clients:0
+
+# Memory
+used_memory:1509096
+used_memory_human:1.00M
+used_memory_rss:1446160
+used_memory_rss_human:1.00M
+used_memory_peak:1509096
+used_memory_peak_human:1.00M
+used_memory_peak_perc:104.35%
+used_memory_overhead:1359710
+used_memory_startup:1309760
+used_memory_dataset:149386
+used_memory_dataset_perc:74.94%
+allocator_allocated:12671024
+allocator_active:603979776
+allocator_resident:612368384
+total_system_memory:0
+total_system_memory_human:0B
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+used_memory_scripts:0
+used_memory_scripts_human:0B
+number_of_cached_scripts:0
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+allocator_frag_ratio:47.67
+allocator_frag_bytes:591308752
+allocator_rss_ratio:1.01
+allocator_rss_bytes:8388608
+rss_overhead_ratio:0.00
+rss_overhead_bytes:-610922224
+mem_fragmentation_ratio:1.00
+mem_fragmentation_bytes:0
+mem_not_counted_for_evict:0
+mem_replication_backlog:0
+mem_clients_slaves:0
+mem_clients_normal:49950
+mem_aof_buffer:0
+mem_allocator:jemalloc-5.2.1-redis
+active_defrag_running:0
+lazyfree_pending_objects:0
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1653371186
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+rdb_last_cow_size:0
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+aof_last_cow_size:0
+
+# Stats
+total_connections_received:3
+total_commands_processed:14
+instantaneous_ops_per_sec:0
+total_net_input_bytes:568
+total_net_output_bytes:11079
+instantaneous_input_kbps:0.00
+instantaneous_output_kbps:0.00
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+expired_stale_perc:0.00
+expired_time_cap_reached_count:0
+evicted_keys:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:0
+migrate_cached_sockets:0
+slave_expires_tracked_keys:0
+active_defrag_hits:0
+active_defrag_misses:0
+active_defrag_key_hits:0
+active_defrag_key_misses:0
+
+# Replication
+role:slave
+master_host:127.0.0.1
+master_port:7202
+master_link_status:down
+master_last_io_seconds_ago:-1
+master_sync_in_progress:0
+slave_repl_offset:0
+master_link_down_since_seconds:1653371292
+slave_priority:100
+slave_read_only:1
+connected_slaves:0
+master_replid:398a9124936beba4421b787bc8b78ad7420c3f44
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:0.078125
+used_cpu_user:0.046875
+used_cpu_sys_children:0.000000
+used_cpu_user_children:0.000000
+
+# Cluster
+cluster_enabled:1
+
+# Keyspace
+, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.655 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-24 13:48:12.655 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.l.core.cluster.ClusterNodeEndpoint     : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1] closeAsync()
+2022-05-24 13:48:12.655 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1] closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.l.core.cluster.ClusterNodeEndpoint     : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2] closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2] closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.l.core.cluster.ClusterNodeEndpoint     : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3] closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3] closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.l.core.cluster.ClusterNodeEndpoint     : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4] closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4] closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.l.core.cluster.ClusterNodeEndpoint     : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5] closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5] closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.l.core.cluster.ClusterNodeEndpoint     : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6] closeAsync()
+2022-05-24 13:48:12.657 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6] closeAsync()
+2022-05-24 13:48:12.658 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-24 13:48:12.658 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.l.core.cluster.ClusterNodeEndpoint     : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7] closeAsync()
+2022-05-24 13:48:12.658 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7] closeAsync()
+2022-05-24 13:48:12.658 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-24 13:48:12.658 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.l.core.cluster.ClusterNodeEndpoint     : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8] closeAsync()
+2022-05-24 13:48:12.658 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8] closeAsync()
+2022-05-24 13:48:12.658 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-24 13:48:12.658 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.l.core.cluster.ClusterNodeEndpoint     : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9] closeAsync()
+2022-05-24 13:48:12.658 DEBUG 3192 --- [lettuce-eventExecutorLoop-1-12] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9] closeAsync()
+2022-05-24 13:48:12.659 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3, chid=0x3] channelInactive()
+2022-05-24 13:48:12.659 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5, chid=0x5] channelInactive()
+2022-05-24 13:48:12.659 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4, chid=0x4] channelInactive()
+2022-05-24 13:48:12.659 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2, chid=0x2] channelInactive()
+2022-05-24 13:48:12.659 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1, chid=0x1] channelInactive()
+2022-05-24 13:48:12.659 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] channelInactive()
+2022-05-24 13:48:12.659 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] channelInactive()
+2022-05-24 13:48:12.659 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] channelInactive()
+2022-05-24 13:48:12.659 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] channelInactive()
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8] deactivating endpoint handler
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5] deactivating endpoint handler
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2] deactivating endpoint handler
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4] deactivating endpoint handler
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3] deactivating endpoint handler
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7] deactivating endpoint handler
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1] deactivating endpoint handler
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6] deactivating endpoint handler
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9] deactivating endpoint handler
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4, chid=0x4] channelInactive() done
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] channelInactive() done
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] channelInactive() done
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3, chid=0x3] channelInactive() done
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2, chid=0x2] channelInactive() done
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1, chid=0x1] channelInactive() done
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5, chid=0x5] channelInactive() done
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] channelInactive() done
+2022-05-24 13:48:12.660 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] channelInactive() done
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ConnectionWatchdog     : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, last known addr=/127.0.0.1:7302] channelInactive()
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ConnectionWatchdog     : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, last known addr=/127.0.0.1:7301] channelInactive()
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.ConnectionWatchdog     : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, last known addr=/127.0.0.1:7201] channelInactive()
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ConnectionWatchdog     : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, last known addr=/127.0.0.1:7304] channelInactive()
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ConnectionWatchdog     : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, last known addr=/127.0.0.1:7302] Reconnect scheduling disabled
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ConnectionWatchdog     : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, last known addr=/127.0.0.1:7301] Reconnect scheduling disabled
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ConnectionWatchdog     : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, last known addr=/127.0.0.1:7304] Reconnect scheduling disabled
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ConnectionWatchdog     : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, last known addr=/127.0.0.1:7202] channelInactive()
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ConnectionWatchdog     : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, last known addr=/127.0.0.1:7203] channelInactive()
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.ConnectionWatchdog     : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, last known addr=/127.0.0.1:7306] channelInactive()
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0xf4fae51b, /127.0.0.1:64327 -> /127.0.0.1:7302, epid=0x5, chid=0x5] channelUnregistered()
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ConnectionWatchdog     : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, last known addr=/127.0.0.1:7303] channelInactive()
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.ConnectionWatchdog     : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, last known addr=/127.0.0.1:7201] Reconnect scheduling disabled
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ConnectionWatchdog     : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, last known addr=/127.0.0.1:7303] Reconnect scheduling disabled
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ConnectionWatchdog     : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, last known addr=/127.0.0.1:7305] channelInactive()
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.ConnectionWatchdog     : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, last known addr=/127.0.0.1:7306] Reconnect scheduling disabled
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ConnectionWatchdog     : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, last known addr=/127.0.0.1:7202] Reconnect scheduling disabled
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0xf62fdc6f, /127.0.0.1:64334 -> /127.0.0.1:7304, epid=0x7, chid=0x7] channelUnregistered()
+2022-05-24 13:48:12.664 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ConnectionWatchdog     : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, last known addr=/127.0.0.1:7305] Reconnect scheduling disabled
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ConnectionWatchdog     : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, last known addr=/127.0.0.1:7203] Reconnect scheduling disabled
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : [channel=0x73f5e881, /127.0.0.1:64330 -> /127.0.0.1:7301, epid=0x4, chid=0x4] channelUnregistered()
+2022-05-24 13:48:12.663 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : [channel=0xb190087f, /127.0.0.1:64328 -> /127.0.0.1:7201, epid=0x1, chid=0x1] channelUnregistered()
+2022-05-24 13:48:12.664 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : [channel=0x522be099, /127.0.0.1:64326 -> /127.0.0.1:7203, epid=0x3, chid=0x3] channelUnregistered()
+2022-05-24 13:48:12.664 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xf8a3ab62, /127.0.0.1:64332 -> /127.0.0.1:7303, epid=0x6, chid=0x6] channelUnregistered()
+2022-05-24 13:48:12.664 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0x4e7061f8, /127.0.0.1:64333 -> /127.0.0.1:7306, epid=0x9, chid=0x9] channelUnregistered()
+2022-05-24 13:48:12.664 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : [channel=0xcbb09e76, /127.0.0.1:64329 -> /127.0.0.1:7202, epid=0x2, chid=0x2] channelUnregistered()
+2022-05-24 13:48:12.664 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x3570ab75, /127.0.0.1:64331 -> /127.0.0.1:7305, epid=0x8, chid=0x8] channelUnregistered()
+2022-05-24 13:48:12.664 DEBUG 3192 --- [http-nio-8080-exec-1] i.l.core.cluster.RedisClusterClient      : connectCluster([redis://127.0.0.1:7201, redis://127.0.0.1:7202, redis://127.0.0.1:7203, redis://127.0.0.1:7301, redis://127.0.0.1:7302, redis://127.0.0.1:7303, redis://127.0.0.1:7304, redis://127.0.0.1:7305, redis://127.0.0.1:7306])
+2022-05-24 13:48:12.706 DEBUG 3192 --- [http-nio-8080-exec-1] i.l.c.c.RoundRobinSocketAddressSupplier  : Resolved SocketAddress 127.0.0.1/<unresolved>:7305 using for Cluster node 7cd1ae8836b134eee9fb38a2d65ba3c68ca9eac6
+2022-05-24 13:48:12.706 DEBUG 3192 --- [http-nio-8080-exec-1] io.lettuce.core.AbstractRedisClient      : Connecting to Redis at 127.0.0.1/<unresolved>:7305
+2022-05-24 13:48:12.707 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, [id: 0x86f60e96] (inactive), epid=0xa, chid=0xa] channelRegistered()
+2022-05-24 13:48:12.710 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa, chid=0xa] write(ctx, AsyncCommand [type=HELLO, output=GenericMapOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.710 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandEncoder  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305] writing command AsyncCommand [type=HELLO, output=GenericMapOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.710 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa, chid=0xa] Received: 63 bytes, 1 commands in the stack
+2022-05-24 13:48:12.711 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa, chid=0xa] Stack contains: 1 commands
+2022-05-24 13:48:12.711 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.711 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa, chid=0xa] Completing command AsyncCommand [type=HELLO, output=GenericMapOutput [output=null, error='ERR unknown command `HELLO`, with args beginning with: `3`, '], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.711 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa, chid=0xa] write(ctx, AsyncCommand [type=PING, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2022-05-24 13:48:12.711 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandEncoder  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305] writing command AsyncCommand [type=PING, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.711 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa, chid=0xa] Received: 7 bytes, 1 commands in the stack
+2022-05-24 13:48:12.711 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa, chid=0xa] Stack contains: 1 commands
+2022-05-24 13:48:12.711 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:48:12.711 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa, chid=0xa] Completing command AsyncCommand [type=PING, output=StatusOutput [output=PONG, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:48:12.711 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa, chid=0xa] channelActive()
+2022-05-24 13:48:12.711 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa] activateEndpointAndExecuteBufferedCommands 0 command(s) buffered

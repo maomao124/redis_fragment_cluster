@@ -1,0 +1,103 @@
+2022-05-24 13:49:01.288 DEBUG 3192 --- [http-nio-8080-exec-3] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [940]
+2022-05-24 13:49:01.289 DEBUG 3192 --- [http-nio-8080-exec-3] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Read from buffer: [0]
+2022-05-24 13:49:01.289 DEBUG 3192 --- [http-nio-8080-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Read direct from socket: [940]
+2022-05-24 13:49:01.289 DEBUG 3192 --- [http-nio-8080-exec-3] o.a.coyote.http11.Http11InputBuffer      : Received [GET /set/a/1 HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Microsoft Edge";v="101"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Cookie: Idea-2347e683=7bef4e77-fa42-4f63-b13f-9d49fe35fcf9; mbox=session#a01c13ff0816407685902a031e6d50bd#1644071823|PC#a01c13ff0816407685902a031e6d50bd.32_0#1678249975; _ga=GA1.1.2061233658.1650939704
+
+]
+2022-05-24 13:49:01.290 DEBUG 3192 --- [http-nio-8080-exec-3] o.a.t.util.http.Rfc6265CookieProcessor   : Cookies: Parsing b[]: Idea-2347e683=7bef4e77-fa42-4f63-b13f-9d49fe35fcf9; mbox=session#a01c13ff0816407685902a031e6d50bd#1644071823|PC#a01c13ff0816407685902a031e6d50bd.32_0#1678249975; _ga=GA1.1.2061233658.1650939704
+2022-05-24 13:49:01.290 DEBUG 3192 --- [http-nio-8080-exec-3] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /set/a/1
+2022-05-24 13:49:01.290 DEBUG 3192 --- [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2022-05-24 13:49:01.290 DEBUG 3192 --- [http-nio-8080-exec-3] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2022-05-24 13:49:01.291 DEBUG 3192 --- [http-nio-8080-exec-3] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2022-05-24 13:49:01.291 DEBUG 3192 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/set/a/1", parameters={}
+2022-05-24 13:49:01.291 DEBUG 3192 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to mao.redis_fragment_cluster.controller.RedisTestController#set(String, String)
+2022-05-24 13:49:01.291 DEBUG 3192 --- [http-nio-8080-exec-3] o.s.d.redis.core.RedisConnectionUtils    : Fetching Redis Connection from RedisConnectionFactory
+2022-05-24 13:49:01.291 DEBUG 3192 --- [http-nio-8080-exec-3] io.lettuce.core.RedisChannelHandler      : dispatching command AsyncCommand [type=SET, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:49:01.291 DEBUG 3192 --- [http-nio-8080-exec-3] i.l.c.c.PooledClusterConnectionProvider  : getConnection(WRITE, 15495)
+2022-05-24 13:49:01.292 DEBUG 3192 --- [http-nio-8080-exec-3] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb] write() writeAndFlush command ClusterCommand [command=AsyncCommand [type=SET, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], redirections=0, maxRedirections=5]
+2022-05-24 13:49:01.292 DEBUG 3192 --- [http-nio-8080-exec-3] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb] write() done
+2022-05-24 13:49:01.292 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandHandler  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb, chid=0xb] write(ctx, ClusterCommand [command=AsyncCommand [type=SET, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], redirections=0, maxRedirections=5], promise)
+2022-05-24 13:49:01.292 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandEncoder  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203] writing command ClusterCommand [command=AsyncCommand [type=SET, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], redirections=0, maxRedirections=5]
+2022-05-24 13:49:01.292 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandHandler  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb, chid=0xb] Received: 5 bytes, 1 commands in the stack
+2022-05-24 13:49:01.292 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandHandler  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb, chid=0xb] Stack contains: 1 commands
+2022-05-24 13:49:01.293 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:49:01.293 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandHandler  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb, chid=0xb] Completing command ClusterCommand [command=AsyncCommand [type=SET, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command], redirections=0, maxRedirections=5]
+2022-05-24 13:49:01.293 DEBUG 3192 --- [http-nio-8080-exec-3] o.s.d.redis.core.RedisConnectionUtils    : Closing Redis Connection.
+2022-05-24 13:49:01.293 DEBUG 3192 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-05-24 13:49:01.293 DEBUG 3192 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [true]
+2022-05-24 13:49:01.294 DEBUG 3192 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-05-24 13:49:01.294 DEBUG 3192 --- [http-nio-8080-exec-3] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [940]
+2022-05-24 13:49:01.294 DEBUG 3192 --- [http-nio-8080-exec-3] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Read from buffer: [0]
+2022-05-24 13:49:01.294 DEBUG 3192 --- [http-nio-8080-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Read direct from socket: [0]
+2022-05-24 13:49:01.294 DEBUG 3192 --- [http-nio-8080-exec-3] o.a.coyote.http11.Http11InputBuffer      : Received []
+2022-05-24 13:49:01.294 DEBUG 3192 --- [http-nio-8080-exec-3] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Status in: [OPEN_READ], State out: [OPEN]
+2022-05-24 13:49:01.295 DEBUG 3192 --- [http-nio-8080-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]]
+2022-05-24 13:49:05.693 DEBUG 3192 --- [http-nio-8080-exec-4] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [940]
+2022-05-24 13:49:05.693 DEBUG 3192 --- [http-nio-8080-exec-4] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Read from buffer: [0]
+2022-05-24 13:49:05.693 DEBUG 3192 --- [http-nio-8080-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Read direct from socket: [940]
+2022-05-24 13:49:05.693 DEBUG 3192 --- [http-nio-8080-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received [GET /set/a/1 HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Microsoft Edge";v="101"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Cookie: Idea-2347e683=7bef4e77-fa42-4f63-b13f-9d49fe35fcf9; mbox=session#a01c13ff0816407685902a031e6d50bd#1644071823|PC#a01c13ff0816407685902a031e6d50bd.32_0#1678249975; _ga=GA1.1.2061233658.1650939704
+
+]
+2022-05-24 13:49:05.694 DEBUG 3192 --- [http-nio-8080-exec-4] o.a.t.util.http.Rfc6265CookieProcessor   : Cookies: Parsing b[]: Idea-2347e683=7bef4e77-fa42-4f63-b13f-9d49fe35fcf9; mbox=session#a01c13ff0816407685902a031e6d50bd#1644071823|PC#a01c13ff0816407685902a031e6d50bd.32_0#1678249975; _ga=GA1.1.2061233658.1650939704
+2022-05-24 13:49:05.694 DEBUG 3192 --- [http-nio-8080-exec-4] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /set/a/1
+2022-05-24 13:49:05.694 DEBUG 3192 --- [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2022-05-24 13:49:05.694 DEBUG 3192 --- [http-nio-8080-exec-4] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2022-05-24 13:49:05.694 DEBUG 3192 --- [http-nio-8080-exec-4] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2022-05-24 13:49:05.694 DEBUG 3192 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/set/a/1", parameters={}
+2022-05-24 13:49:05.695 DEBUG 3192 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to mao.redis_fragment_cluster.controller.RedisTestController#set(String, String)
+2022-05-24 13:49:05.695 DEBUG 3192 --- [http-nio-8080-exec-4] o.s.d.redis.core.RedisConnectionUtils    : Fetching Redis Connection from RedisConnectionFactory
+2022-05-24 13:49:05.695 DEBUG 3192 --- [http-nio-8080-exec-4] io.lettuce.core.RedisChannelHandler      : dispatching command AsyncCommand [type=SET, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2022-05-24 13:49:05.695 DEBUG 3192 --- [http-nio-8080-exec-4] i.l.c.c.PooledClusterConnectionProvider  : getConnection(WRITE, 15495)
+2022-05-24 13:49:05.695 DEBUG 3192 --- [http-nio-8080-exec-4] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb] write() writeAndFlush command ClusterCommand [command=AsyncCommand [type=SET, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], redirections=0, maxRedirections=5]
+2022-05-24 13:49:05.695 DEBUG 3192 --- [http-nio-8080-exec-4] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb] write() done
+2022-05-24 13:49:05.695 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandHandler  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb, chid=0xb] write(ctx, ClusterCommand [command=AsyncCommand [type=SET, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], redirections=0, maxRedirections=5], promise)
+2022-05-24 13:49:05.696 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandEncoder  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203] writing command ClusterCommand [command=AsyncCommand [type=SET, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], redirections=0, maxRedirections=5]
+2022-05-24 13:49:05.696 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandHandler  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb, chid=0xb] Received: 5 bytes, 1 commands in the stack
+2022-05-24 13:49:05.696 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandHandler  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb, chid=0xb] Stack contains: 1 commands
+2022-05-24 13:49:05.696 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] i.l.core.protocol.RedisStateMachine      : Decode done, empty stack: true
+2022-05-24 13:49:05.696 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandHandler  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb, chid=0xb] Completing command ClusterCommand [command=AsyncCommand [type=SET, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command], redirections=0, maxRedirections=5]
+2022-05-24 13:49:05.696 DEBUG 3192 --- [http-nio-8080-exec-4] o.s.d.redis.core.RedisConnectionUtils    : Closing Redis Connection.
+2022-05-24 13:49:05.696 DEBUG 3192 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-05-24 13:49:05.696 DEBUG 3192 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [true]
+2022-05-24 13:49:05.697 DEBUG 3192 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-05-24 13:49:05.697 DEBUG 3192 --- [http-nio-8080-exec-4] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [940]
+2022-05-24 13:49:05.697 DEBUG 3192 --- [http-nio-8080-exec-4] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Read from buffer: [0]
+2022-05-24 13:49:05.697 DEBUG 3192 --- [http-nio-8080-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Read direct from socket: [0]
+2022-05-24 13:49:05.697 DEBUG 3192 --- [http-nio-8080-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received []
+2022-05-24 13:49:05.697 DEBUG 3192 --- [http-nio-8080-exec-4] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Status in: [OPEN_READ], State out: [OPEN]
+2022-05-24 13:49:05.697 DEBUG 3192 --- [http-nio-8080-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]]
+2022-05-24 13:49:05.876 DEBUG 3192 --- [http-nio-8080-exec-5] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [940]
+2022-05-24 13:49:05.876 DEBUG 3192 --- [http-nio-8080-exec-5] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Read from buffer: [0]
+2022-05-24 13:49:05.876 DEBUG 3192 --- [http-nio-8080-exec-5] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@577e77f2:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64321]], Read direct from socket: [940]

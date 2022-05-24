@@ -1,13 +1,61 @@
-2022-05-24 13:43:14.358  INFO 196 --- [main] m.r.RedisFragmentClusterApplication      : Starting RedisFragmentClusterApplication using Java 16.0.2 on mao with PID 196 (H:\程序\大三下期\redis分片集群\target\classes started by mao in H:\程序\大三下期\redis分片集群)
-2022-05-24 13:43:14.360 DEBUG 196 --- [main] m.r.RedisFragmentClusterApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-05-24 13:43:14.361  INFO 196 --- [main] m.r.RedisFragmentClusterApplication      : The following 1 profile is active: "dev"
-2022-05-24 13:43:14.840  INFO 196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2022-05-24 13:43:14.842  INFO 196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2022-05-24 13:43:14.860  INFO 196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-2022-05-24 13:43:15.225  INFO 196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-05-24 13:43:15.233  INFO 196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-05-24 13:43:15.233  INFO 196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-05-24 13:43:15.314  INFO 196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-05-24 13:43:15.314  INFO 196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 908 ms
-2022-05-24 13:43:15.861  INFO 196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-05-24 13:43:15.872  INFO 196 --- [main] m.r.RedisFragmentClusterApplication      : Started RedisFragmentClusterApplication in 1.914 seconds (JVM running for 2.572)
+2022-05-24 13:50:31.902 DEBUG 3192 --- [http-nio-8080-exec-3] o.s.d.redis.core.RedisConnectionUtils    : Closing Redis Connection.
+2022-05-24 13:50:31.903 DEBUG 3192 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-05-24 13:50:31.903 DEBUG 3192 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["1568"]
+2022-05-24 13:50:31.904 DEBUG 3192 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-05-24 13:50:31.905 DEBUG 3192 --- [http-nio-8080-exec-3] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [912]
+2022-05-24 13:50:31.905 DEBUG 3192 --- [http-nio-8080-exec-3] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@17d0932c:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64459]], Read from buffer: [0]
+2022-05-24 13:50:31.905 DEBUG 3192 --- [http-nio-8080-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@17d0932c:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64459]], Read direct from socket: [0]
+2022-05-24 13:50:31.905 DEBUG 3192 --- [http-nio-8080-exec-3] o.a.coyote.http11.Http11InputBuffer      : Received []
+2022-05-24 13:50:31.905 DEBUG 3192 --- [http-nio-8080-exec-3] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@17d0932c:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64459]], Status in: [OPEN_READ], State out: [OPEN]
+2022-05-24 13:50:31.905 DEBUG 3192 --- [http-nio-8080-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@17d0932c:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64459]]
+2022-05-24 13:51:07.921 DEBUG 3192 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1653371467921 sessioncount 0
+2022-05-24 13:51:07.921 DEBUG 3192 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2022-05-24 13:51:32.300 DEBUG 3192 --- [http-nio-8080-exec-4] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8080-exec-4] latch=1
+2022-05-24 13:51:32.300 DEBUG 3192 --- [http-nio-8080-exec-5] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8080-exec-5] latch=1
+2022-05-24 13:51:32.300 DEBUG 3192 --- [http-nio-8080-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Calling [org.apache.tomcat.util.net.NioEndpoint@3fd3b3af].closeSocket([org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@6547dcf1:org.apache.tomcat.util.net.NioChannel@352bd8df:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64460]])
+2022-05-24 13:51:32.300 DEBUG 3192 --- [http-nio-8080-exec-5] org.apache.tomcat.util.net.NioEndpoint   : Calling [org.apache.tomcat.util.net.NioEndpoint@3fd3b3af].closeSocket([org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@17d0932c:org.apache.tomcat.util.net.NioChannel@56e932e3:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:64459]])
+2022-05-24 13:52:07.990 DEBUG 3192 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1653371527990 sessioncount 0
+2022-05-24 13:52:07.990 DEBUG 3192 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2022-05-24 13:53:01.046 DEBUG 3192 --- [SpringApplicationShutdownHook] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2022-05-24 13:53:01.047 DEBUG 3192 --- [SpringApplicationShutdownHook] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cde6747, started on Tue May 24 13:47:06 CST 2022
+2022-05-24 13:53:01.047 DEBUG 3192 --- [SpringApplicationShutdownHook] ySourcesPropertyResolver$DefaultResolver : Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2022-05-24 13:53:01.048 DEBUG 3192 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2022-05-24 13:53:01.048 DEBUG 3192 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2022-05-24 13:53:01.049 DEBUG 3192 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483646
+2022-05-24 13:53:01.075 DEBUG 3192 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2022-05-24 13:53:01.075 DEBUG 3192 --- [SpringApplicationShutdownHook] o.s.d.r.l.RedisMessageListenerContainer  : Stopped RedisMessageListenerContainer.
+2022-05-24 13:53:01.075 DEBUG 3192 --- [SpringApplicationShutdownHook] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2022-05-24 13:53:01.076 DEBUG 3192 --- [SpringApplicationShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-24 13:53:01.077 DEBUG 3192 --- [SpringApplicationShutdownHook] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-24 13:53:01.077 DEBUG 3192 --- [SpringApplicationShutdownHook] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa] closeAsync()
+2022-05-24 13:53:01.078 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa, chid=0xa] channelInactive()
+2022-05-24 13:53:01.078 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa] deactivating endpoint handler
+2022-05-24 13:53:01.078 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa, chid=0xa] channelInactive() done
+2022-05-24 13:53:01.078 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.ConnectionWatchdog     : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, last known addr=/127.0.0.1:7305] channelInactive()
+2022-05-24 13:53:01.078 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.ConnectionWatchdog     : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, last known addr=/127.0.0.1:7305] Reconnect scheduling disabled
+2022-05-24 13:53:01.078 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0x05c40dff, /127.0.0.1:64335 -> /127.0.0.1:7305, epid=0xa, chid=0xa] channelUnregistered()
+2022-05-24 13:53:01.078 DEBUG 3192 --- [SpringApplicationShutdownHook] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-24 13:53:01.078 DEBUG 3192 --- [SpringApplicationShutdownHook] i.l.core.cluster.ClusterNodeEndpoint     : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb] closeAsync()
+2022-05-24 13:53:01.079 DEBUG 3192 --- [SpringApplicationShutdownHook] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb] closeAsync()
+2022-05-24 13:53:01.080 DEBUG 3192 --- [SpringApplicationShutdownHook] io.lettuce.core.AbstractRedisClient      : Initiate shutdown (100, 100, MILLISECONDS)
+2022-05-24 13:53:01.080 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandHandler  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb, chid=0xb] channelInactive()
+2022-05-24 13:53:01.080 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb] deactivating endpoint handler
+2022-05-24 13:53:01.080 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandHandler  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb, chid=0xb] channelInactive() done
+2022-05-24 13:53:01.080 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] i.l.core.protocol.ConnectionWatchdog     : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, last known addr=/127.0.0.1:7203] channelInactive()
+2022-05-24 13:53:01.080 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] i.l.core.protocol.ConnectionWatchdog     : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, last known addr=/127.0.0.1:7203] Reconnect scheduling disabled
+2022-05-24 13:53:01.080 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.CommandHandler  : [channel=0xa21a7cfb, /127.0.0.1:64336 -> /127.0.0.1:7203, epid=0xb, chid=0xb] channelUnregistered()
+2022-05-24 13:53:01.082 DEBUG 3192 --- [SpringApplicationShutdownHook] i.l.c.r.DefaultEventLoopGroupProvider    : Release executor io.netty.channel.nio.NioEventLoopGroup@25deee25
+2022-05-24 13:53:01.083 DEBUG 3192 --- [lettuce-nioEventLoop-4-9] io.netty.buffer.PoolThreadCache          : Freed 8 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-9
+2022-05-24 13:53:01.083 DEBUG 3192 --- [lettuce-nioEventLoop-4-7] io.netty.buffer.PoolThreadCache          : Freed 8 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-7
+2022-05-24 13:53:01.083 DEBUG 3192 --- [lettuce-nioEventLoop-4-6] io.netty.buffer.PoolThreadCache          : Freed 8 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-6
+2022-05-24 13:53:01.083 DEBUG 3192 --- [lettuce-nioEventLoop-4-1] io.netty.buffer.PoolThreadCache          : Freed 8 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2022-05-24 13:53:01.083 DEBUG 3192 --- [lettuce-nioEventLoop-4-5] io.netty.buffer.PoolThreadCache          : Freed 8 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-5
+2022-05-24 13:53:01.083 DEBUG 3192 --- [lettuce-nioEventLoop-4-4] io.netty.buffer.PoolThreadCache          : Freed 8 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-4
+2022-05-24 13:53:01.083 DEBUG 3192 --- [lettuce-nioEventLoop-4-3] io.netty.buffer.PoolThreadCache          : Freed 8 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-3
+2022-05-24 13:53:01.083 DEBUG 3192 --- [lettuce-nioEventLoop-4-2] io.netty.buffer.PoolThreadCache          : Freed 8 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-2
+2022-05-24 13:53:01.083 DEBUG 3192 --- [lettuce-nioEventLoop-4-8] io.netty.buffer.PoolThreadCache          : Freed 8 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-8
+2022-05-24 13:53:01.191 DEBUG 3192 --- [lettuce-nioEventLoop-4-10] io.netty.buffer.PoolThreadCache          : Freed 4 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-10
+2022-05-24 13:53:01.191 DEBUG 3192 --- [lettuce-nioEventLoop-4-11] io.netty.buffer.PoolThreadCache          : Freed 6 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-11
+2022-05-24 13:53:01.191 DEBUG 3192 --- [SpringApplicationShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService
+2022-05-24 13:53:01.191 DEBUG 3192 --- [SpringApplicationShutdownHook] i.l.c.resource.DefaultClientResources    : Initiate shutdown (0, 2, SECONDS)
+2022-05-24 13:53:01.193 DEBUG 3192 --- [SpringApplicationShutdownHook] i.l.c.r.DefaultEventLoopGroupProvider    : Initiate shutdown (0, 2, SECONDS)
